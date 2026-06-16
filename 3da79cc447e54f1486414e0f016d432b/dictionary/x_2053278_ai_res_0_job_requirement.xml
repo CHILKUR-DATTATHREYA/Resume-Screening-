@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="50591cc847e54f1486414e0f016d4321" label="Job Requirement" max_length="40" name="x_2053278_ai_res_0_job_requirement" type="collection">
+        <element label="Required Skills" max_length="40" name="required_skills" type="string"/>
+        <element display="true" label="Job title" max_length="40" name="job_title" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Min Experience" max_length="40" name="min_experience" type="integer"/>
+        <element label="Passing Score" max_length="40" name="passing_score" type="integer"/>
+    </element>
+</database>

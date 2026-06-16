@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_2053278_ai_res_0_candidatee</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Resume Evaluation</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    var text = (current.resume_text + "");
+
+    // ============================
+    // NAME EXTRACTION
+    // ============================
+
+    var nameMatch = text.match(/name\s*:\s*(.*)/i);
+
+    if (nameMatch) {
+        current.candidate_name = nameMatch[1].trim();
+    }
+
+    // ============================
+    // EMAIL EXTRACTION
+    // ============================
+
+    var emailMatch =
+        text.match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/);
+
+    if (emailMatch) {
+        current.email = emailMatch[0];
+    }
+
+    // ============================
+    // PHONE EXTRACTION
+    // ============================
+
+    var phoneMatch =
+        text.match(/\+?\d[\d\s-]{8,15}/);
+
+    if (phoneMatch) {
+        current.phone =
+            phoneMatch[0].replace(/\s/g, "");
+    }
+
+    // ============================
+    // LOWERCASE COPY
+    // ============================
+
+    var lowerText = text.toLowerCase();
+
+    // ============================
+    // SKILL EXTRACTION
+    // ============================
+
+    var skills = [];
+
+    if (lowerText.indexOf("java") > -1)
+        skills.push("Java");
+
+    if (lowerText.indexOf("sql") > -1)
+        skills.push("SQL");
+
+    if (lowerText.indexOf("aws") > -1)
+        skills.push("AWS");
+
+    if (lowerText.indexOf("spring") > -1)
+        skills.push("Spring Boot");
+
+    if (lowerText.indexOf("python") > -1)
+        skills.push("Python");
+
+    if (lowerText.indexOf("react") > -1)
+        skills.push("React");
+
+    if (lowerText.indexOf("javascript") > -1)
+        skills.push("JavaScript");
+
+    if (lowerText.indexOf("html") > -1)
+        skills.push("HTML");
+
+    if (lowerText.indexOf("css") > -1)
+        skills.push("CSS");
+
+    current.skills = skills.join(", ");
+
+    // ============================
+    // EXPERIENCE EXTRACTION
+    // ============================
+
+    var experienceYears = 0;
+
+    var expMatch =
+        lowerText.match(/([0-9]+)\s*years?/);
+
+    if (expMatch) {
+        experienceYears =
+            parseInt(expMatch[1]);
+    }
+
+    current.experience_years =
+        experienceYears;
+
+    // ============================
+    // EDUCATION EXTRACTION
+    // ============================
+
+    var education =
+        "Not Detected";
+
+    if (lowerText.indexOf("b.tech") > -1)
+        education = "B.Tech";
+
+    else if (lowerText.indexOf("m.tech") > -1)
+        education = "M.Tech";
+
+    else if (lowerText.indexOf("bachelor") > -1)
+        education = "Bachelor Degree";
+
+    else if (lowerText.indexOf("master") > -1)
+        education = "Master Degree";
+
+    current.education = education;
+
+    // ============================
+    // REQUIRED SKILLS
+    // ============================
+// Applied Job not selected
+
+if (!current.applied_job) {
+
+    current.skill_match = "";
+    current.skill_gap = "";
+    current.resume_score = "";
+    current.status = "Screened";
+    current.ai_recommendation = "Under Review";
+    current.rejection_reason = "";
+    current.interview_date = "";
+    current.ai_feedback = "";
+
+    return;
+}
+    // ============================
+// READ JOB REQUIREMENTS
+// ============================
+
+var requiredSkills = [];
+var requiredExperience = 0;
+
+if (current.applied_job) {
+
+    var jobGR = new GlideRecord(
+        'x_2053278_ai_res_0_job_requirement'
+    );
+
+    if (jobGR.get(current.applied_job)) {
+
+        requiredSkills =
+        jobGR.required_skills
+        .toString()
+        .split(",");
+
+        requiredExperience =
+        parseInt(
+            jobGR.min_experience
+        ) || 0;
+    }
+}
+
+    var matchCount = 0;
+    var missingSkills = [];
+
+    for (var i = 0; i < requiredSkills.length; i++) {
+
+        if (skills.indexOf(requiredSkills[i]) > -1) {
+
+            matchCount++;
+
+        } else {
+
+            missingSkills.push(
+                requiredSkills[i]
+            );
+        }
+    }
+
+    // ============================
+    // SKILL MATCH
+    // ============================
+
+    var skillMatch =
+        Math.round(
+            (matchCount /
+                requiredSkills.length) * 100
+        );
+
+    current.skill_match =
+        skillMatch;
+
+    // ============================
+    // SKILL GAP
+    // ============================
+
+    if (missingSkills.length > 0) {
+
+        current.skill_gap =
+            missingSkills.length +
+            " Skills Missing: " +
+            missingSkills.join(", ");
+
+    } else {
+
+        current.skill_gap =
+            "0 Skills Missing";
+    }
+
+    // ============================
+    // RESUME SCORE
+    // ============================
+
+    var experienceScore = 0;
+
+    if (experienceYears >= 5)
+        experienceScore = 20;
+
+    else if (experienceYears >= 3)
+        experienceScore = 15;
+
+    else if (experienceYears >= 1)
+        experienceScore = 10;
+
+    var educationScore = 0;
+
+    if (
+        education == "Master Degree" ||
+        education == "M.Tech"
+    )
+        educationScore = 10;
+
+    else if (
+        education == "Bachelor Degree" ||
+        education == "B.Tech"
+    )
+        educationScore = 8;
+
+    var resumeScore =
+        skillMatch +
+        experienceScore +
+        educationScore;
+
+    if (resumeScore > 100)
+        resumeScore = 100;
+
+    current.resume_score =
+        resumeScore;
+
+    // ============================
+    // STATUS
+    // ============================
+
+    // ============================
+// AI DECISION ENGINE
+// ============================
+
+// ============================
+// STATUS
+// ============================
+
+if (!current.resume_text) {
+
+    current.status =
+    "Screened";
+
+    current.ai_recommendation =
+    "Under Review";
+
+}
+else if (
+    skillMatch >= 80 &&
+    experienceYears >= requiredExperience
+) {
+
+    current.status =
+    "Interview Scheduled";
+
+    current.ai_recommendation =
+    "Strongly Recommended";
+
+    current.rejection_reason = "";
+
+    var gdt =
+    new GlideDateTime();
+
+    gdt.addDaysUTC(3);
+
+    current.interview_date =
+    gdt.getValue();
+
+}
+else if (skillMatch >= 60) {
+
+    current.status =
+    "Shortlisted";
+
+    current.ai_recommendation =
+    "Recommended";
+
+    current.rejection_reason = "";
+
+}
+else {
+
+    current.status =
+    "Rejected";
+
+    current.ai_recommendation =
+    "Rejected";
+
+    current.rejection_reason =
+    "Missing Skills: " +
+    missingSkills.join(", ");
+}
+    // ============================
+    // AI FEEDBACK REPORT
+    // ============================
+
+    // ============================
+// AI FEEDBACK REPORT
+// ============================
+
+current.ai_feedback =
+
+"<div style='padding:20px;font-family:Arial;background:#f8f9fa;border-radius:10px;'>" +
+
+"<h1 style='color:#1f4e79;'>]]>🤖<![CDATA[ AI Candidate Evaluation Report</h1>" +
+
+"<hr>" +
+
+"<h2>" + (current.candidate_name || "Candidate") + "</h2>" +
+
+"<p><b>Applied Job:</b> " +
+(current.getDisplayValue('applied_job') || "Not Selected") +
+"</p>" +
+
+"<p><b>Email:</b> " +
+(current.email || "Not Found") +
+"</p>" +
+
+"<p><b>Phone:</b> " +
+(current.phone || "Not Found") +
+"</p>" +
+
+"<h3>]]>📊<![CDATA[ Screening Summary</h3>" +
+
+"<table border='1' cellpadding='8' cellspacing='0' style='border-collapse:collapse;width:100%;'>" +
+
+"<tr><td><b>Resume Score</b></td><td>" +
+current.resume_score + "%</td></tr>" +
+
+"<tr><td><b>Skill Match</b></td><td>" +
+current.skill_match + "%</td></tr>" +
+
+"<tr><td><b>Experience</b></td><td>" +
+experienceYears + " Years</td></tr>" +
+
+"<tr><td><b>Education</b></td><td>" +
+education + "</td></tr>" +
+
+"<tr><td><b>Required Experience</b></td><td>" +
+requiredExperience +
+" Years</td></tr>" +
+
+"<tr><td><b>Job Match</b></td><td>" +
+skillMatch +
+"%</td></tr>" +
+
+"<tr><td><b>Status</b></td><td>" +
+current.status + "</td></tr>" +
+
+"<tr><td><b>Recommendation</b></td><td>" +
+current.ai_recommendation + "</td></tr>" +
+
+"</table>" +
+
+"<br>" +
+
+"<h3>✅ Skills Identified</h3>" +
+
+"<div style='padding:10px;background:#d4edda;border-radius:5px;'>" +
+skills.join(", ") +
+"</div>" +
+
+"<br>" +
+
+"<h3>⚠ Skill Gap Analysis</h3>" +
+
+"<div style='padding:10px;background:#fff3cd;border-radius:5px;'>" +
+current.skill_gap +
+"</div>" +
+
+"<br>" +
+
+"<h3>]]>📝<![CDATA[ AI Decision Reason</h3>" +
+
+"<div style='padding:10px;background:#e2e3e5;border-radius:5px;'>" +
+current.rejection_reason +
+"</div>" +
+
+"<br>" +
+
+"<h3>]]>🎯<![CDATA[ Final Assessment</h3>" +
+
+(
+current.status == "Rejected"
+
+?
+
+"<div style='padding:15px;background:#f8d7da;color:#721c24;border-radius:5px;'>" +
+"Candidate does not currently satisfy the minimum job requirements. Additional upskilling is recommended before proceeding to the next stage." +
+"</div>"
+
+:
+
+"<div style='padding:15px;background:#d1ecf1;color:#0c5460;border-radius:5px;'>" +
+"Candidate demonstrates strong alignment with the job requirements and is recommended for the next stage of the recruitment process." +
+"</div>"
+)
+
++
+
+"<br>" +
+
+"<h3>]]>📅<![CDATA[ Interview Information</h3>" +
+
+"<p><b>Interview Date:</b> " +
+(current.getDisplayValue('interview_date') || "Not Scheduled") +
+"</p>" +
+
+"</div>";
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 09:39:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c12e158447618f1486414e0f016d4378</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Resume Evaluation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_update_name>sys_script_c12e158447618f1486414e0f016d4378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 10:19:30</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c12e158447618f1486414e0f016d4378"/>
+</record_update>

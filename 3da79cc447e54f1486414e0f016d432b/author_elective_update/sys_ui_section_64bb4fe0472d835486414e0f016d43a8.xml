@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Uploade your Resume Text Here...." section_id="64bb4fe0472d835486414e0f016d43a8" sys_domain="global" table="x_2053278_ai_res_0_candidatee" version="3" view="Client_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resume_text</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-15 06:53:24</sys_created_on>
+            <sys_id>e4bb4fe0472d835486414e0f016d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Uploade your Resume Text Here...." display_value="Uploade your Resume Text Here...." name="x_2053278_ai_res_0_candidatee" sys_domain="global" view="58bb4fe0472d835486414e0f016d436a">64bb4fe0472d835486414e0f016d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-15 06:53:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Uploade your Resume Text Here....</caption>
+            <header>false</header>
+            <name>x_2053278_ai_res_0_candidatee</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-15 06:53:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64bb4fe0472d835486414e0f016d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2053278_ai_res_0_candidatee</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+            <sys_update_name>sys_ui_section_64bb4fe0472d835486414e0f016d43a8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-15 06:53:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Client View" name="Client_View">58bb4fe0472d835486414e0f016d436a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</application>
+        <file_path/>
+        <instance_id>f48ea3e63b10e210677f04e0b5e45a2f</instance_id>
+        <instance_name>dev301667</instance_name>
+        <name>sys_ui_section_64bb4fe0472d835486414e0f016d43a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Uploade your Resume Text Here...." section_id="64bb4fe0472d835486414e0f016d43a8" sys_domain="global" table="x_2053278_ai_res_0_candidatee" version="3" view="Client_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>resume_text</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-15 06:53:24</sys_created_on><sys_id>e4bb4fe0472d835486414e0f016d43ee</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Uploade your Resume Text Here...." display_value="Uploade your Resume Text Here...." name="x_2053278_ai_res_0_candidatee" sys_domain="global" view="58bb4fe0472d835486414e0f016d436a">64bb4fe0472d835486414e0f016d43a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-15 06:53:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Uploade your Resume Text Here....</caption><header>false</header><name>x_2053278_ai_res_0_candidatee</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-15 06:53:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>64bb4fe0472d835486414e0f016d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2053278_ai_res_0_candidatee</sys_name><sys_overrides/><sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package><sys_policy/><sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope><sys_update_name>sys_ui_section_64bb4fe0472d835486414e0f016d43a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-15 06:53:23</sys_updated_on><sys_user/><title>false</title><view display_value="Client View" name="Client_View">58bb4fe0472d835486414e0f016d436a</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-339830295</payload_hash>
+        <record_name>Candidatee</record_name>
+        <reverted_from/>
+        <source>b5a79cc447e54f1486414e0f016d4333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 06:53:24</sys_created_on>
+        <sys_id>acbb4fe0472d835486414e0f016d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eca0e70b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 06:53:24</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>60bb4fe0732d8354ccff0c22c2971af1</update_guid>
+        <update_guid_history>60bb4fe0732d8354ccff0c22c2971af1:-339830295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 06:56:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>128903e2a7044ee4b9858858f92d2644</sys_id>
+        <sys_metadata>64bb4fe0472d835486414e0f016d43a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Uploade your Resume Text Here....</sys_name>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_parent display_value="Candidatee">22185c0847e54f1486414e0f016d4344</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_scope_delete display_value="">5c24d30d0f284f18be3de4b61ba30840</sys_scope_delete>
+        <sys_update_name>sys_ui_section_64bb4fe0472d835486414e0f016d43a8</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_64bb4fe0472d835486414e0f016d43a8">acbb4fe0472d835486414e0f016d43f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 06:56:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

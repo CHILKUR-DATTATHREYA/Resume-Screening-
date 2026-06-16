@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Candidate Status Distribution">501ab400472d4f1486414e0f016d433e</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 07:00:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c1a7800472d4f1486414e0f016d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>501ab400472d4f1486414e0f016d433e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_update_name>par_dashboard_permission_6c1a7800472d4f1486414e0f016d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 07:00:12</sys_updated_on>
+        <user display_value="Chilkur Dattathreya">6816f79cc0a8016401c5a33be04be441</user>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</application>
+        <file_path/>
+        <instance_id>f48ea3e63b10e210677f04e0b5e45a2f</instance_id>
+        <instance_name>dev301667</instance_name>
+        <name>par_dashboard_permission_6c1a7800472d4f1486414e0f016d431f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="Candidate Status Distribution">501ab400472d4f1486414e0f016d433e</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-13 07:00:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6c1a7800472d4f1486414e0f016d431f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>501ab400472d4f1486414e0f016d433e</sys_name><sys_overrides/><sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package><sys_policy/><sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope><sys_update_name>par_dashboard_permission_6c1a7800472d4f1486414e0f016d431f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-13 07:00:12</sys_updated_on><user display_value="Chilkur Dattathreya">6816f79cc0a8016401c5a33be04be441</user></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>1963963102</payload_hash>
+        <record_name>501ab400472d4f1486414e0f016d433e</record_name>
+        <reverted_from/>
+        <source>b5a79cc447e54f1486414e0f016d4333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 07:00:13</sys_created_on>
+        <sys_id>b01a7800472d4f1486414e0f016d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ebfc7f41e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 07:00:13</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>701a7800522d4f1404f19bd6029dd423</update_guid>
+        <update_guid_history>701a7800522d4f1404f19bd6029dd423:1963963102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cbacfc44472d4f1486414e0f016d4371</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 07:11:33</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>8f0c15b9ee3f43febf896b3d865567b1</sys_id>
+        <sys_metadata>6c1a7800472d4f1486414e0f016d431f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>501ab400472d4f1486414e0f016d433e</sys_name>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_scope_delete display_value="">5c24d30d0f284f18be3de4b61ba30840</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_6c1a7800472d4f1486414e0f016d431f</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_6c1a7800472d4f1486414e0f016d431f">b01a7800472d4f1486414e0f016d4324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 07:11:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

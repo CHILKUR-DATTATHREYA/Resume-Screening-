@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_2053278_ai_res_0.CandidateDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CandidateDetails</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CandidateDetails = Class.create();
+
+CandidateDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getCandidateData: function() {
+
+        var candidateId = this.getParameter('sysparm_candidate');
+
+        var gr = new GlideRecord('x_2053278_ai_res_0_candidatee');
+
+        if (gr.get(candidateId)) {
+
+            var obj = {};
+
+            obj.name = gr.candidate_name.toString();
+            obj.job_title = gr.applied_job.getDisplayValue();
+            obj.resume_score = gr.resume_score.toString();
+            obj.skill_match = gr.skill_match.toString();
+            obj.status = gr.status.toString();
+            obj.ai_recommendation = gr.ai_recommendation.toString();
+            obj.interview_date = gr.interview_date.toString();
+            obj.ai_feedback = gr.ai_feedback.toString();
+
+            return JSON.stringify(obj);
+        }
+
+        return "{}";
+    },
+
+    type: 'CandidateDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 09:57:18</sys_created_on>
+        <sys_id>85bebc4d4769475486414e0f016d43c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CandidateDetails</sys_name>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_update_name>sys_script_include_85bebc4d4769475486414e0f016d43c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 09:58:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

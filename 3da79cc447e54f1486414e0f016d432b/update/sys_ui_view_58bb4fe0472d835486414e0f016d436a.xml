@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Client_View</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 06:53:23</sys_created_on>
+        <sys_id>58bb4fe0472d835486414e0f016d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Client View</sys_name>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_update_name>sys_ui_view_58bb4fe0472d835486414e0f016d436a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 06:53:23</sys_updated_on>
+        <title>Client View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

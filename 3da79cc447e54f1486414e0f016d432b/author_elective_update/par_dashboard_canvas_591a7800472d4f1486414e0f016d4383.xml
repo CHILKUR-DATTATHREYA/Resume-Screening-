@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="Candidate Status Distribution">501ab400472d4f1486414e0f016d433e</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 07:00:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>591a7800472d4f1486414e0f016d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_update_name>par_dashboard_canvas_591a7800472d4f1486414e0f016d4383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 07:00:14</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</application>
+        <file_path/>
+        <instance_id>f48ea3e63b10e210677f04e0b5e45a2f</instance_id>
+        <instance_name>dev301667</instance_name>
+        <name>par_dashboard_canvas_591a7800472d4f1486414e0f016d4383</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Candidate Status Distribution">501ab400472d4f1486414e0f016d433e</dashboard><dashboard_tab/><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-13 07:00:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>591a7800472d4f1486414e0f016d4383</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package><sys_policy/><sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope><sys_update_name>par_dashboard_canvas_591a7800472d4f1486414e0f016d4383</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-13 07:00:14</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>897080870</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b5a79cc447e54f1486414e0f016d4333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 07:00:15</sys_created_on>
+        <sys_id>991a7800472d4f1486414e0f016d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ebfc7fc3e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 07:00:15</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>591a78006b2d4f14ee111b1c0ccc7285</update_guid>
+        <update_guid_history>591a78006b2d4f14ee111b1c0ccc7285:897080870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">faacfc44472d4f1486414e0f016d4353</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 07:11:32</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>2dec82ec7a6742efb8b6c4466c3da6b1</sys_id>
+        <sys_metadata>591a7800472d4f1486414e0f016d4383</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_scope_delete display_value="">5c24d30d0f284f18be3de4b61ba30840</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_591a7800472d4f1486414e0f016d4383</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_591a7800472d4f1486414e0f016d4383">991a7800472d4f1486414e0f016d4386</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 07:11:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

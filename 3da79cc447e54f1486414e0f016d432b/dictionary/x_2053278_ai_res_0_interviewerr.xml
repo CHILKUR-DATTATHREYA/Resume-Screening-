@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8ddf584847294f1486414e0f016d43a7" label="Interviewerr" max_length="40" name="x_2053278_ai_res_0_interviewerr" type="collection">
+        <element choice="1" label="Final Decision" max_length="40" name="final_decision" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offer Released" value="Offer Released"/>
+                <element inactive_on_update="false" label="Hold" value="Hold"/>
+                <element inactive_on_update="false" label="Rejected" value="Rejected"/>
+                <element inactive_on_update="false" label="Selected" value="Selected"/>
+            </choice>
+        </element>
+        <element label="Problem Solving Score" max_length="40" name="problem_solving_score" type="integer"/>
+        <element label="AI recommendation" max_length="40" name="ai_recommendation" read_only="true" type="string"/>
+        <element choice="3" label="status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+                <element inactive_on_update="false" label="Rescheduled" value="Rescheduled"/>
+                <element inactive_on_update="false" label="Selected" sequence="2" value="selected"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="scheduled"/>
+            </choice>
+        </element>
+        <element label="Interview Feedback" max_length="8000" name="interview_feedback" type="html"/>
+        <element label="AI Feedback" max_length="65536" name="ai_feedback" read_only="true" type="html"/>
+        <element label="Resume Score" max_length="40" name="resume_score" read_only="true" type="integer"/>
+        <element label="Skill Match" max_length="40" name="skill_match" read_only="true" type="integer"/>
+        <element label="Candidate" max_length="32" name="candidate" reference="x_2053278_ai_res_0_candidatee" type="reference"/>
+        <element label="Interview Date" max_length="40" name="interview_date" read_only="true" type="glide_date_time"/>
+        <element label="Communication Score" max_length="40" name="communication_score" type="integer"/>
+        <element active="false" display="true" label="Job title" max_length="40" name="job_title" read_only="true" reference="x_2053278_ai_res_0_job_requirement" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" read_only="true" type="string"/>
+        <element label="Interviewer" max_length="32" name="interviewer" reference="sys_user" type="reference"/>
+        <element label="Technical Score" max_length="40" name="technical_score" type="integer"/>
+        <index name="index">
+            <element name="candidate"/>
+        </index>
+        <index name="index2">
+            <element name="interviewer"/>
+        </index>
+    </element>
+</database>

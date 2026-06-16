@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="26964c0947a1475486414e0f016d4318" sys_domain="global" table="x_2053278_ai_res_0_interviewerr" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 05:49:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6964c0947a1475486414e0f016d431e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2053278_ai_res_0_interviewerr" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">26964c0947a1475486414e0f016d4318</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 05:49:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 05:49:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae964c0947a1475486414e0f016d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2053278_ai_res_0_interviewerr" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">26964c0947a1475486414e0f016d4318</sys_ui_form>
+            <sys_ui_section caption="AI Response...." display_value="AI Response...." name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">2e960c0947a1475486414e0f016d43b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 05:49:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2053278_ai_res_0_interviewerr</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 05:49:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26964c0947a1475486414e0f016d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2053278_ai_res_0_interviewerr</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_26964c0947a1475486414e0f016d4318</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 05:49:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
