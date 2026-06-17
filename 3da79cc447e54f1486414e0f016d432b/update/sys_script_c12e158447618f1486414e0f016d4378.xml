@@ -102,7 +102,35 @@
 
     if (lowerText.indexOf("css") > -1)
         skills.push("CSS");
+	if (lowerText.indexOf("network security") > -1)
+    skills.push("Network Security");
 
+if (lowerText.indexOf("nmap") > -1)
+    skills.push("Nmap");
+
+if (lowerText.indexOf("wireshark") > -1)
+    skills.push("Wireshark");
+
+if (lowerText.indexOf("penetration testing") > -1)
+    skills.push("Penetration Testing");
+
+if (lowerText.indexOf("ethical hacking") > -1)
+    skills.push("Ethical Hacking");
+
+if (lowerText.indexOf("metasploit") > -1)
+    skills.push("Metasploit");
+
+if (lowerText.indexOf("burp suite") > -1)
+    skills.push("Burp Suite");
+
+if (lowerText.indexOf("incident response") > -1)
+    skills.push("Incident Response");
+
+if (lowerText.indexOf("risk assessment") > -1)
+    skills.push("Risk Assessment");
+
+if (lowerText.indexOf("kali linux") > -1)
+    skills.push("Kali Linux");
     current.skills = skills.join(", ");
 
     // ============================
@@ -193,28 +221,37 @@ if (current.applied_job) {
 
     for (var i = 0; i < requiredSkills.length; i++) {
 
-        if (skills.indexOf(requiredSkills[i]) > -1) {
+    var reqSkill =
+        requiredSkills[i].trim();
 
-            matchCount++;
+    if (
+        skills.indexOf(reqSkill) > -1
+    ) {
 
-        } else {
+        matchCount++;
 
-            missingSkills.push(
-                requiredSkills[i]
-            );
-        }
+    } else {
+
+        missingSkills.push(
+            reqSkill
+        );
     }
+}
 
     // ============================
     // SKILL MATCH
     // ============================
 
-    var skillMatch =
+    var skillMatch = 0;
+
+if (requiredSkills.length > 0) {
+
+    skillMatch =
         Math.round(
             (matchCount /
                 requiredSkills.length) * 100
         );
-
+}
     current.skill_match =
         skillMatch;
 
@@ -318,7 +355,10 @@ else if (
     gdt.getValue();
 
 }
-else if (skillMatch >= 60) {
+else if (
+    skillMatch >= 60 &&
+    experienceYears >= requiredExperience
+) {
 
     current.status =
     "Shortlisted";
@@ -327,7 +367,6 @@ else if (skillMatch >= 60) {
     "Recommended";
 
     current.rejection_reason = "";
-
 }
 else {
 
@@ -466,7 +505,7 @@ current.status == "Rejected"
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c12e158447618f1486414e0f016d4378</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Resume Evaluation</sys_name>
         <sys_overrides/>
         <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
@@ -474,7 +513,7 @@ current.status == "Rejected"
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_update_name>sys_script_c12e158447618f1486414e0f016d4378</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-15 10:19:30</sys_updated_on>
+        <sys_updated_on>2026-06-17 06:53:17</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

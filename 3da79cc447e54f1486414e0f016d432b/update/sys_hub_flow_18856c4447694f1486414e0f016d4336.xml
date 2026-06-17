@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=273468000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=351577000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,20 +15,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>ai_resume_processing_flow</internal_name>
-        <label_cache>[{"name":"527def41-3c48-43f6-ab30-f21d834a3952.Record","label":"4 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interviewer"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.ai_feedback","label":"7 - Update Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.skill_match","label":"Trigger - Record Created➛Candidatee Record➛Skill match","reference":"","reference_display":"Skill match","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"skill_match","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["skill_match"]}},{"name":"Created_1.current.interview_date","label":"Trigger - Record Created➛Candidatee Record➛interview date","reference":"","reference_display":"interview date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"interview_date","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interview_date"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.ai_feedback","label":"5 - Create Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","choices":[{"order":0.0}],"usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"40847d23-7ea2-42e8-8ade-be91d9eea851.record.applied_job","label":"1 - Update Record➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"8d087fb6-f5f8-44df-be94-c755ef177d05":["record"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.problem_solving_score","label":"5 - Create Record➛Interviewerr Record➛Problem Solving Score","reference":"","reference_display":"Problem Solving Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"problem_solving_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee","type":"reference","base_type":"reference","usedInstances":{"40847d23-7ea2-42e8-8ade-be91d9eea851":["record"],"cef927c0-c3a6-4458-8ee6-6403a74ef992":["record"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","job_title","ai_recommendation"],"26c79f52-75f2-4bdf-a2f5-373328788898":["record"],"fa1de427-b1fc-433e-86c7-3ecc3df9931b":["record"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]},"attributes":{}},{"name":"Created_1.current.ai_feedback","label":"Trigger - Record Created➛Candidatee Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_feedback","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":[null]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.communication_score","label":"5 - Create Record➛Interviewerr Record➛Communication Score","reference":"","reference_display":"Communication Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"communication_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.technical_score","label":"5 - Create Record➛Interviewerr Record➛Technical Score","reference":"","reference_display":"Technical Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"technical_score","usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"fa1de427-b1fc-433e-86c7-3ecc3df9931b.record","label":"3 - Update Record➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee Record","type":"reference","base_type":"reference","usedInstances":{"26c79f52-75f2-4bdf-a2f5-373328788898":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record","label":"5 - Create Record➛Interviewerr Record","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Candidatee Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate"]}},{"name":"Created_1.current.candidate_name","label":"Trigger - Record Created➛Candidatee Record➛Candidate name","reference":"","reference_display":"Candidate name","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"candidate_name","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","name"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Candidatee Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_created_on","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["name"]}},{"name":"Created_1.current.resume_score","label":"Trigger - Record Created➛Candidatee Record➛Resume Score","reference":"","reference_display":"Resume Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"resume_score","usedInstances":{"8149a508-b29d-4b5a-a2cf-957583b98dea":["condition"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["resume_score"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.table_name","label":"5 - Create Record➛Interviewerr Table","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr Table","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.applied_job","label":"Trigger - Record Created➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["job_title"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.sys_id","label":"5 - Create Record➛Interviewerr Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"582586fb-7a1c-44b2-a140-3d17e0d20d35":["record"]}},{"name":"Created_1.current.ai_recommendation","label":"Trigger - Record Created➛Candidatee Record➛AI recommendation","reference":"","reference_display":"AI recommendation","type":"choice","base_type":"choice","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_recommendation","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Strongly Recommended","used":false,"reference":false,"rawLabel":"Strongly Recommended","selected":false,"missing":false,"value":"","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["ai_recommendation"]}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.interview_feedback","label":"7 - Update Record➛Interviewerr Record➛Interview Feedback","reference":"","reference_display":"Interview Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"interview_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatee Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"email","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.phone","label":"Trigger - Record Created➛Candidatee Record➛Phone","reference":"","reference_display":"Phone","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"phone","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.applied_job.job_title","label":"Trigger - Record Created➛Candidatee Record➛Applied Job➛Job title","reference":"","reference_display":"Job title","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_job_requirement","column_name":"job_title","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}}]</label_cache>
+        <label_cache>[{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.final_decision","label":"8 - Update Record➛Interviewerr Record➛Final Decision","reference":"","reference_display":"Final Decision","type":"choice","base_type":"choice","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"final_decision","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Hold","used":false,"reference":false,"rawLabel":"Hold","selected":false,"missing":false,"value":"Hold","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}},{"image":"","label":"Offer Released","used":false,"reference":false,"rawLabel":"Offer Released","selected":false,"missing":false,"value":"Offer Released","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}},{"image":"","label":"Selected","used":false,"reference":false,"rawLabel":"Selected","selected":false,"missing":false,"value":"Selected","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}}],"usedInstances":{"26c79f52-75f2-4bdf-a2f5-373328788898":["status"]}},{"name":"527def41-3c48-43f6-ab30-f21d834a3952.Record.sys_id","label":"4 - Look Up Record➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interviewer"]}},{"name":"527def41-3c48-43f6-ab30-f21d834a3952.Record","label":"4 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interviewer"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.ai_feedback","label":"8 - Update Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.skill_match","label":"Trigger - Record Created➛Candidatee Record➛Skill match","reference":"","reference_display":"Skill match","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"skill_match","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["skill_match"]}},{"name":"Created_1.current.interview_date","label":"Trigger - Record Created➛Candidatee Record➛interview date","reference":"","reference_display":"interview date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"interview_date","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interview_date"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.ai_feedback","label":"5 - Create Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","choices":[{"order":0.0}],"usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"40847d23-7ea2-42e8-8ade-be91d9eea851.record.applied_job","label":"1 - Update Record➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"8d087fb6-f5f8-44df-be94-c755ef177d05":["record"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.problem_solving_score","label":"5 - Create Record➛Interviewerr Record➛Problem Solving Score","reference":"","reference_display":"Problem Solving Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"problem_solving_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee","type":"reference","base_type":"reference","usedInstances":{"40847d23-7ea2-42e8-8ade-be91d9eea851":["record"],"cef927c0-c3a6-4458-8ee6-6403a74ef992":["record"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","job_title","ai_recommendation"],"26c79f52-75f2-4bdf-a2f5-373328788898":["record"],"fa1de427-b1fc-433e-86c7-3ecc3df9931b":["record"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]},"attributes":{}},{"name":"Created_1.current.ai_feedback","label":"Trigger - Record Created➛Candidatee Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_feedback","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":[null]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.communication_score","label":"5 - Create Record➛Interviewerr Record➛Communication Score","reference":"","reference_display":"Communication Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"communication_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.technical_score","label":"5 - Create Record➛Interviewerr Record➛Technical Score","reference":"","reference_display":"Technical Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"technical_score","usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"fa1de427-b1fc-433e-86c7-3ecc3df9931b.record","label":"3 - Update Record➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee","type":"reference","base_type":"reference","usedInstances":{"26c79f52-75f2-4bdf-a2f5-373328788898":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record","label":"5 - Create Record➛Interviewerr Record","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Candidatee Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate"]}},{"name":"Created_1.current.candidate_name","label":"Trigger - Record Created➛Candidatee Record➛Candidate name","reference":"","reference_display":"Candidate name","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"candidate_name","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","name"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Candidatee Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_created_on","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["name"]}},{"name":"Created_1.current.resume_score","label":"Trigger - Record Created➛Candidatee Record➛Resume Score","reference":"","reference_display":"Resume Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"resume_score","usedInstances":{"8149a508-b29d-4b5a-a2cf-957583b98dea":["condition"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["resume_score"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.table_name","label":"5 - Create Record➛Interviewerr Table","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.applied_job","label":"Trigger - Record Created➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["job_title"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.sys_id","label":"5 - Create Record➛Interviewerr Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"sys_id","usedInstances":{"582586fb-7a1c-44b2-a140-3d17e0d20d35":["record"],"65013e91-d2e3-48ef-af7f-962f9cadfefd":["conditions"]}},{"name":"Created_1.current.ai_recommendation","label":"Trigger - Record Created➛Candidatee Record➛AI recommendation","reference":"","reference_display":"AI recommendation","type":"choice","base_type":"choice","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_recommendation","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Strongly Recommended","used":false,"reference":false,"rawLabel":"Strongly Recommended","selected":false,"missing":false,"value":"","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["ai_recommendation"]}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.interview_feedback","label":"8 - Update Record➛Interviewerr Record➛Interview Feedback","reference":"","reference_display":"Interview Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"interview_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatee Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"email","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.phone","label":"Trigger - Record Created➛Candidatee Record➛Phone","reference":"","reference_display":"Phone","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"phone","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.applied_job.job_title","label":"Trigger - Record Created➛Candidatee Record➛Applied Job➛Job title","reference":"","reference_display":"Job title","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_job_requirement","column_name":"job_title","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}}]</label_cache>
         <master_snapshot>f9c8ac0c47694f1486414e0f016d438c</master_snapshot>
         <master_snapshot_digest/>
         <name>AI Resume Processing Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>c2b830414769475486414e0f016d4393</remote_trigger_id>
+        <remote_trigger_id>04b26595476dc75486414e0f016d4309</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>18856c4447694f1486414e0f016d4336</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>156</sys_mod_count>
         <sys_name>AI Resume Processing Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_update_name>sys_hub_flow_18856c4447694f1486414e0f016d4336</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:30:41</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:04</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>4b49f4814769475486414e0f016d434a</version_record>
+        <version_record>89b2a595476dc75486414e0f016d4311</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=18856c4447694f1486414e0f016d4336"/>
     <sys_variable_value action="delete_multiple" query="document_key=18856c4447694f1486414e0f016d4336"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-16 09:28:12</sys_created_on>
+        <sys_created_on>2026-06-17 07:10:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c2b830414769475486414e0f016d4393</sys_id>
+        <sys_id>04b26595476dc75486414e0f016d4309</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:12</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:03</sys_updated_on>
         <table>x_2053278_ai_res_0_candidatee</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -86,14 +86,14 @@
         <identifier>18856c4447694f1486414e0f016d4336</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-16 09:28:12</sys_created_on>
-        <sys_id>ceb830414769475486414e0f016d4393</sys_id>
+        <sys_created_on>2026-06-17 07:10:04</sys_created_on>
+        <sys_id>48b26595476dc75486414e0f016d430a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:12</sys_updated_on>
-        <trigger display_value="">c2b830414769475486414e0f016d4393</trigger>
+        <sys_updated_on>2026-06-17 07:10:04</sys_updated_on>
+        <trigger display_value="">04b26595476dc75486414e0f016d4309</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=18856c4447694f1486414e0f016d4336^sys_idNOT INceb830414769475486414e0f016d4393"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=18856c4447694f1486414e0f016d4336^sys_idNOT IN48b26595476dc75486414e0f016d430a"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=18856c4447694f1486414e0f016d4336"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=18856c4447694f1486414e0f016d4336^sys_idNOT IN98856c4447694f1486414e0f016d433a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -317,13 +317,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:39:42</sys_created_on>
         <sys_id>25a7a88847694f1486414e0f016d43c0</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:47:03</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:38</sys_updated_on>
         <ui_id>26c79f52-75f2-4bdf-a2f5-373328788898</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1U22obMRD9lbDP9rK78v0t1Bj60ATSkpc0CK00awu0l0paX2r87x3tah0naRMTDKVQvc1IM+ecmYMe9oEUwSwYgIjiaTziJCYkiaJkMojTEUnjRBAGEAe9oGA54EsNvNQC4zVTtUvs9xmLBQyScT+NM94fEAL9yYiP+wQ4JyKbTkmchm3d4YCVQppKsd29b4AZvpJKaCiC2cNjL6iYRiwLOpjtX1zZXQVUsRQUFs5LXudQ2KvPc+xxro6u+q4T8lKYw8BY+O5UuiReOT5x1Atga6EQgHAZUwZ6Qc4KwWypd8HM6hoTGpi4LdTu+GIlC9sqzdnWyJ/YfxC5dxmgNO6ncAypn1A3nFJyuK2sLIs2Y1mqusmVqs6Lm1aCmy1krFb2ZLa1wX5QOcqORMsw+7oqN3cd3kIWjTrPVpWcqWPErNUyrS0Ytw5Q0AwlZ1UliyWtdLmWTTFSycOlwiDMVLlBTCOXRci44x3igFi4wPy8Sd8zLZ2IL9gGiw+NePqjdritDE+YNpobwbRZFD41XMvKXmPjNXiah543cjp8ywB8+rTvk55PZt7SJBqSZDyhTFINhkaU43Yl0gd4bd1Pp3cfM/E3R+PqpqVxroRnxX+Q5G38LOddPLyYiyd/ycWe0T9m4/fMGyVv/l4nm278ak6MayyztfleRxERuCbQawkbavgKRK1AvLbu+wUf9DPkCGPhqgXqna2sa7CQoIT5jdTO0B6Arj3A8Wu+mKvjUdSc/z/0BX/ox1+/wMESbAgAAA==</values>
+        <values>H4sIAAAAAAAA/+1UTWvcMBD9K8HntZEs7+etNAR6aAJpySUNQpbGiUCWXUveZLvsf+/YljebNE1DWCiF+jYjzcx7T89zvY20ilZRBorQJZ1JRhlLCUkXGc1nLKepYgKARpPIihLwZgOyahTGa2HaLrHdFoIqyNJ5nNNCxhljEC9mch4zkJKpYrlkNE+Gut0OK5V2tRGbq9AAM/JOG9WAjVbXN5OoFg3O8tBEq+2zI7+pgRuRg8HC00q2JVh/8ukUe7yVx1h9ORJ5TqybgbEK3bnuknjU4aFkEsGDB6sAxxXCOJhEpbBK+KrZRCvftJhoQKgLazb7G3fa+oFpKR6c/oH9M9LdKwCpyaDCPuRBoVGcSku4qL2u7JDxIjejcpVpS3s+UOi0hUK0xh9o2zrsB3UHuQMxICy+3FX3l+O8M217dgGtqaQw+0h43+i89eC65wADvSilqGttb3ndVGvdFyOUMrk1GCSFqe5xptO3NhGyw52gQCI5w/xpn74Sje5IfMY2WLzryfPvbTd3oBEA855zT5j3D4VXnWx07T9g4zUEmLtJMHI+fc0Acvn43gc9H838wFMyZel8wYXmDThOuMTX1Qgf4Ffrfjw8e5+Jv3YwTs4HGG+l8KT4N5SCjZ/kgounR3Px4i+5OCD6x2z8J/OS9NXtdfDSvV/dgXGdF75131pCmNpup4t0upgVeTwXFDdylqexoBmJmaJzIColik3DRk4KbYVBmlI7ZPjSgj5q73f+JVAiIg8nA6bJm/UaG5xpMMq9IOD4m4QBfB0G7Bf+0f4VOiP993/vH3Hv3/wEathDScIIAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=25a7a88847694f1486414e0f016d43c0"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -331,7 +331,7 @@
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="AI Resume Processing Flow">18856c4447694f1486414e0f016d4336</flow>
         <generation_source/>
@@ -341,10 +341,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 06:15:00</sys_created_on>
         <sys_id>4c8c080547e1475486414e0f016d435d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:47:03</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:38</sys_updated_on>
         <ui_id>582586fb-7a1c-44b2-a140-3d17e0d20d35</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UTWsbMRD9K2HP9qL9iGv7FgiBHJpAUnJJU6GVZhOBVruVtP6o8X/vaFfrOEmbGhMoheo2I82b92Yeut9EUkTzKAdBklky4VmSZSkh6TRPiklWJKnIGEASjSLNKsCXBnhtBMYLplqf2GzSlM8mRTkZc05gnHOYjWfAp2NR5nmapHg9JXFft91ipZC2UWx9FwAww5+kEgZ0NL9/GEUNM9jLgYnmm1dXbt0AVawAhYXnNW8r0O7k8hwxDtUxVN8MQl4L8z0wFgGdSp/EK88nIaMIVg60AGxXMmVhFFVMC+Zqs47mzrSYMMDEtVbr3YsnqV2vtGIrK38gfk78uxJQGg9T2IU0TGgYTi05XDdO1rrPOFaoYXK1ait91Uvws4WStcrtzba1iAeNp+xJ9AzL26d6eTP0u5C6UxfYqpoztYuYc0YWrQPr1wEKuqFUrGmkfqSNqReyK0YqVfyoMIhLVS+xp5WPOmbc845xQCy+wPx5l75jRnoRnxEGi7edePq99X17GYEw7TR3gmm3KHxquZGNO0PgBQSa21EwcnH6ngH47Hnfe5jPZl7RlJxm6acpZZIasJRQXB2YhYQlGPPWvJcvb48z8hdP5eSqp3KojBfFv5EVrPwiF5x8+mFOnv4lJwdG/5iV/2Rgkr77g+1tuvOs3TNvKTVTSJZLizy/toRk4hZVcgfim3XMtbZPorxGoS/FWz8fhXGk6wERmIOTvvfoYP0DwIUEJewvBjLYPjSgi9Bg94l/mPeTCenO/7/8A//yh5/150MxlggAAA==</values>
@@ -365,10 +365,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:34:13</sys_created_on>
         <sys_id>5d666cc447694f1486414e0f016d43f2</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 05:21:06</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:37</sys_updated_on>
         <ui_id>fa1de427-b1fc-433e-86c7-3ecc3df9931b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UUWvbMBD+K8HPxsh2kqV5Kw2BPayFbvSlK0KWLolAlj1JTpOF/PedbDlN27ULJTAG05tOd999392H7neRFNE0GoIg6UU65nma5xkh2WSYFuO8SDORM4A0iiPNSsBMA7wyAu9rphof2O2uDDAHgqYJb4wB7fZ7fBfS1opt70IaRvhKKoHv0fT+IY5qZhDRgYmmuxdPblsDVawAhYWzijclgg4+zxDjVLZ99W1P9yV93wPvIqBT6YP45PmkJI5g40ALwHYLpizEUcm0YK4y22jqTIMBVC1utNoeMlZSu05pyTZW/kT8IfF5C0BpPEzhcKVhQv1wKsnhpnay0l3EsUL1k6tUU+rrToKfLSxYo9zRbBuLeFB7yp5Ex3DxdVU93vb95lK36gJbVXGmDjfmnJFF48D6dYCCdiglq2upl7Q21Vq2xUilTJYKL8lCVY/Y08qlThj3vBMcEEvmGJ+14TtmpBfxBWGweN+Kpz8a37eTEQjTVnMrmLaLwlTLjazdJQKvIdDcx8Guxeg9A/CLp30fYT5ZdkMzMsqzTxPKJDVgKaEctyuRPsBr614dv33MxN88jcF1R+NUCc+K35AUbPwsFlw8OpuLJ3/JxYHRP2bjP5mXZO/+Xkebbv1qj4xrHXON/d4Qkgu7qoxT0uLP+9qybyd+0L9QIryDQdcgPllJDzCXoIT9jbTewKEBXYcGh6/4bC5Ox6Q9/3/kM/7ID78Ae3Hnk0IIAAA=</values>
@@ -379,7 +379,7 @@
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="AI Resume Processing Flow">18856c4447694f1486414e0f016d4336</flow>
         <generation_source/>
@@ -389,13 +389,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 06:32:38</sys_created_on>
         <sys_id>9680180d47e1475486414e0f016d430d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:47:03</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:38</sys_updated_on>
         <ui_id>12107152-bb95-4a02-9efa-588b7be1663c</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXU/bMBT9K1Gem8z5aEn7Ng0h8TCQ2MQLg8ixb6g3xwmOU+iq/vddJ04pjDGEkKZJtFIbX/vee87xiX2x8QX3F34KnETzaMaSKEliQuIsjYpZUkQxTyhA5E98RSvAlRpYrTmOV1R2NrDZxDGbz4pyFjBGIEgZzIM5sCzgZZrGUYzTGQmHvO0WM7loG0nX564ARthSSK5B+YuLy4nfUI29DGh/sXk0ZdYN5JIWIDHxsGZdBcp4x4dY46U8xuyzkchjYrYHjrmrngsbxCmLJyITH+4MKA7YrqSyhYlfUcWpqfXaXxjdYUAD5adKrncrlkKZgWlF71rxE+unxK4rAakxp8JumDuFRnFqweC0MaJWQ8TQQo7K1bKr1MlAwWoLJe2k2dO2a7EeNBayBTEgLL8s69uzsd+RUD07h1bWjMrdiBqjRdEZaO12gIRelIo2jVDXeaPrleiTEUoVXkschKWsb7FnK65VSJnFHaJANDzC+GEfPqdaWBKfsQwmb3vy+U1n+w40HOC859wTzvuNwqUt06IxH7HwChzM7cQZuZg+ZwA2v9/vvZr3Zr7LYzJN4oMspyLX0OYkx60DvRJwC1r/bt7jh7OvM/JXC8U7GaC8lMaD5D/QclZ+EHNOnr6Zk7N/5GSH6D+z8t8MTOJnT7C9ne492+6ZtxSKSgTLRIs4v3WEJPwMvgMzwK9aQ03XDkGk10iwUXR5CcALyn4MU/0vazxLMjBCrSsGuq5NgUqOS3z82if4hHYRuBI8/PNUbbwKwHhmCZ6Gm05o4N7u9fGQND4KGg49PjRDkav+TUNIuBlYa4d8s5lm8TSblUVwQCMWpGkRBzRKSZDw6AAIjwlPpu5eCfeIPHXHvEtzL80rzyhAYSyfQdLJi906FjgSIHn7hH3HQ8o1yFeuwe7KfbOTKpqR/vN+877hzXv5C0Nc+rtECgAA</values>
+        <values>H4sIAAAAAAAA/+1WW0/bMBT+K1Gem8y5tLTdEwIh8TCYAO2FS+TYJ9TDcYLjFLqq/33HuZSWAWMIadpEK7X18bl83zlf7ZwvXcHdqRsDJ8EkGLEoiKKQkHAcB+koSoOQRxQgcAeuojmgpwZWaI7rOZW1NSyXYcgmozQbeYwR8GIGE28CbOzxLI7DIMTtMfHbuNUKI7moSkkX37oEaGEzIbkG5U7PLwduSTXWMqDd6fLRllmUkEiagsTA/YLVOSjjHO5jjtfy6KNPeiKPidkauOZd9kRYI25ZPAEZuHBvQHHAchmVFQzcnCpOTaEX7tToGg0aKD9WcrH2mAllWqY5va/ED8wfE+uXAVJjXRfWy6TrUN+cQjA4Lo0oVGsxNJV95wpZ5+qopWB7CxmtpdnobV1hPigtZAuiRZidzoq7k77egVANuw6tLBiV6xU1Rou0NlDZcYCEpik5LUuhrpNSF3PRBCOU3L+WuPAzWdxhzUpcK58yi9vHBlH/AO37jfkb1cKS+IJpMHjVkE9ua1u3pdEBThrODeGkGRS6VkyL0uxi4jl0MFeDTsjp8CUBsMnDvDdyPoj5PgnJMAp3xgkViYYqIQmODvRcwB1o/at4D7d33ybkMwvFOWqhvJbGVvAztDopb9k6JQ/fTcnjv6TkDtE/JuXfCZiEL55gG5NuNFttiDcTikoEy0SFOC9qQiJ+At+BGeBXlaGmrlqj7o0o8gyAp5TdtDvNJysdy9EzQi1yBrooTIqN7F1cfNtfsIdqEegJDn45qjBODmAcMwNHw20tNHBn/e9xEACKS/PKb4t8KtssF+qPiu6iJKsuP07NEbmdWzPJaZso1V1i/AxHaS3lZ+cM2EwJ1IJzeiOkrJ733CvyvLaupu/hk25fdYEzz53TQs4Rxjalq+bwQBEhKv6QiC+Xw3E4HI+y1NuhAfPiOA09GsTEi3iwA4SHhEfD7qr0N4bz1LX5Me3/etpvvEkgR43gjFqVDF59pvQJDgRIXj1xyPRXSVcgmXcF1g9G73afBCPSvD6ej97x+ejyJ1/Tv6HqCwAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9680180d47e1475486414e0f016d430d"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -403,7 +403,7 @@
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="AI Resume Processing Flow">18856c4447694f1486414e0f016d4336</flow>
         <generation_source/>
@@ -413,10 +413,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 06:15:26</sys_created_on>
         <sys_id>969c0c0547e1475486414e0f016d43d7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:27:42</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:38</sys_updated_on>
         <ui_id>0a0ad851-62bc-4f28-9456-b4bb0e7704f0</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1cW4/cthX+K4SCAi0wGkua+/hpm12nG9S7xu7WQZEEA4qkZthoRFmiZndiLJCXFkVb9IICfUiLJg8B+lT0P+UX5Cf0kJJmNDM7tuzMXsamDdgriuS58nyHIs9++tLi1BpabUYdd+B2SctttTzH8fpt1++2fNejLcyYazWsCE8Z9EwYEQmF5xkOM9Xw8qXnkUHXD7o2IQ6z24QN7AEjfZsG7bbnevC67zTzcdfXMJLyNA7x/HkxAbSQCQ9pwiJr+OnnDSvGCdCSLLGGL9deyXnMRiH2WQgDDwXJpiyS6PgQ5qgrRzn6rBRkXTBFA55pMfuIq0Z4pfhxnYbFriSLKANyAQ5T1rCmOKJYimRuDWWSQUPCMD2Nwvmix4RHMpd0iq9S/iXM33ZUv4CBaKTQwuJxVGioVI7ghJ3Gkosob5HYD0vNiTCbRie5CEq3LMBZKCu6zVKYj8WKZcVEzmFwPhGXZyW9JzzS0hXchoLgcPGEpUy4n0mWKnOwkGmlTHEc82g8ihMx43owsDJtjkN4aAahuASaKR9HTUwU301QEG4+gfZD3fwcJ1wJ8RSmgcHXWvjRi0zRzcUoGB5pmbXAI20o6JqShMfyACaesYLN60bhyH7nVQ5ABkt7V+ZcOvPVyHM6La/XH2E+Slg6ckZgOpbMOLtkSbLpvMerb9/OkS8UK+gkZ6WuGCuDt4hVuPJKW+HJnZ15cv+ePLngaM9c+XUO7HivjGAVS2ufTSvOCy4bMEZ9TL74LHOcFtX/khgpjm3Jo/mUsEQI6YNayi4W/FU/MfWv1438NH6cj3sUFy+i/JnyGUrlPGTlyEBE0g7wlIfzITpnY8HQr44foxhTCvocIs+Jrx4jxc44EVlEh+iDoB30AgKN2gvtBFOepUPkdqDngpGCXlyTr13JN3FXxQOHFAnw7OA27ZMFez98890/0MExAvxIMi5zAIIoEIZ8rDwQXsQikQWNiXvPQiWrQuWKB43HVygV4OLoAzpgXuBtqv+23KbqEJcTLlnFZbQjbHhH7kfiyk4nmIrLIXKQB/xDX5SMffxTp6H/Nt2f3b8TeTc7kRu0WW/wuDpPi/hJ6VJ/+w59CLGXAxMMPUtEwIspwIO8+5UornKcykRE47xFhephMabajoquMY4QCXGaliQVPyPARBULYx6Gn1mruiqwYoh4FPKIgbIQgRAD3RnlGikWkUeFTHitJVRT6RBYvn35MqAjmeAoDUQyHbL2oEN72LXbrtu12612x/b9dtfudD2fuKzXDyi+vl61zDbmgRRCmBAWy3RJYhRkkcaGFHgCRhUGXZUDnTsWozA7SyWn5VSH0PQM5j+mdcTUrNgFz/p/DOZIXjdUjUrrdALmruSCUSFCyWN7ySyejIrGCxGvdyu4KvteJHw8ZgmyUZ7Oow8hYwE9o9ytx/Lxcl2xss8N75DC1Fq8pxJDcC96biNfrgqYosaUOEnEZX3D6MTPJrCO5JsOWqH0/b//uYXPSkOz2XxgHL2ZbiH1KmdfM/bbEoL8UYoILf11MwyMAkwwZaM6S1ZFhyrXW2dDkahEHEg2Qw6OZiGVfubKLKc4hYQTLbqich4Uc/IFOCs0om2OCxbYWC/VtlrrJA/fdp7l2hyW7A0jbo78kdBxv3CHr/5Y20q5Vd7MkpsNa9BX4vNrofBoinm4F1jYwd2B6wzsHnM74JF+38a+49q023EGXhviYnsvsLCmGAYL62Oh9mEDge80BOY2vgvkq7FA9wL5aq2K9w/wnk2A730APM93Men3BrbX7vTstkP6tt/ptu22P+hhHDi9XtDZA8CrK4YBvPqAp33YAN47DXi5je8A8Oos0L0AvFqr4v0DvIPcCOiZSLnS8D5gX79FPcbavg3pV8tuk55v91VO5gce6fQ6XdIa7MNmr64YBvvqY1/pzh8Lv9KqniSXoUHFdxsVl3a+A2Sss3z3Ahkrawaeaq+VdwYr7/rg8RHls/vlwBxd1zi6/vsf0DlJGItAC+gZS9Ryw+oexCFOJ77ASYkBGwfZO+JbZxarrF9yKidK+85PFiYBcUIcp2yIyp82NC59QedrTWsJoqSrlJbmd6pXWNZ09JfflblhJV08Y2k2ZaA8kSyWYOX16hw3PW1GDn0jR93KGiKvrTyvtKHXx712Zwt/Sk03zb8ZESTdhTb+/L8btHH+hUoxn2JJJretDMfp+UHwIJTx/X//epMuJJZZettqcHvY8/tbGFvcawT/nDCahWUq96ZaebS+gh7dsMoeLXcHdwEju7oZcxcw8wHrBx02qAU06/FsW0T3WI+2lje+vv/Xb9G5hN3pWE7QQYTDecpL71sP2usb5ixcfQ556cLKa5FkZBJxgkPErmKWSJ4y2OSij/EMI8ir0nkq2bQgVQ5dGG597rq0j64IC0N1L4+EIqOKtEizhKFLrgT85DxnC5Qx5izdNfVCcmVDSLkhMyUqUSBSMaCVwNUtwV1TPWRT2IVDvqv2gHEiYDlN7VSEM4XKsDEPuZzvmuZTxmSKIFMGuQhjNEWL+8Mo1eE8YS8ynuhrtrvXc5Z/U9CpvPrGkMQJuJc9TtQ+QW8NCNYpP2UzFop4Wm6f34KJ/cl9Xx1MgiCALjsNJv1Ot+20l8Hk629RjuUf4RgdpClL04rmt9xmPBEI9kdSR4rcdcaQocH+EkbyAHZdzVW7LC+kpGDjFHqAI8KopQNWXa9518jwaiNQl5HA3akRHNJpd53KHeX/fKvuKF/gML+enPLxRP7YmP4LmETHliKeIBGgNCMELBxkIVoUSqB4uQu4peiKQz6O9NVrHdN/A5vx24w1B76YMRvPWILHrAJqRExjJiGe7zy2fiQERSGIaoNSp0gkYxzxL3U8A7oBf+tIViuc8umUUa6W19KoaZ4H8iIXrUH6ntbXrW/Ma26UYWv8+5UqAfUlCRSrIhQXpY7WF+OGaLkyQvk4t6T+UrsSToq9HbqpY8FaoZKbeqyp6UZqq6rrb+tX3Wk42zqpT+C2Xr6wEdew/YrJLpmKW0OwU0hv+/vID9/86Rt0fnF2evLRL3+Nzo4+PH369Ojk8OgQPTk9Q8cnF0dnz4+PPkGq348i9FqGXwn+qzvFiwlDZIGFdJkEpjoni4t4sRYuJYwqwiWtRLNUgls1ECTLCrRhioSFbIZhFI9oBvPOKwlsQyd+q+gLCdgUq+Rv8T1IgToMwE30c5wCMcjGDo7tWFwyRTrJv4DgYsvRAMZ4qhBGlT8g+HEC5g8VlhcLB8ao8AQ9xjA2VcmdFFqcSpySEKNLxN/cPD+8jO1uko4iOKHViFAnSN6wYm99KX791aav50VXxTez0sHOqzvIN/xUUj3ezaSY6r3TImWqVHQdRWO+vEbwHrnUnXDwgE7MO/2e5wW0ZWOqzqpcN7AH1AtsxoJO3ydBv+sN9uDEvK4Y5sTclAptG/ReH5DffalQnSW7F6fk71mp0OZvhDBV+KYK31Th37O+TRX+Q7uMaqrwTWptUmuTWpsqfJNa10utTRX+Q8dCU4VvqvANBL4xBJoqfFOFvxPAM1X4pgp/3wHPVOG/+4BnqvBNFf5OAM9U4Zsq/HcI+0wV/vuMiqYK31Thmyr8189jjq5NFb6pwq80mCr8HSvDVOEXbaYK31Thmyp8U4VvqvC3Ba2dBBNThX8nyGCq8E0V/o+jaKrwH+7G3FThmyr8ewN/U4VvqvDfIiiaKvzNTyWmCv9BcPCATsxNFb45MTelQuaA3FThm1KheofjVsMiEx5SQCpr+OnnDQtAC+SGJMkavlx7JecxG2n1W0Prgk1BDlBTXr3fsDiFVsejjjtwu6TltloexJ5+2/W7Ld/1aAszpvqVEzzhLKQpNCg9w7MGBPWsyMCzLAiMZgUBndtZQ9dxGhZEVZ1OW0MNLA1r8eHMGsokgwYwMj2NwvmixwRSbJjWUn2v1C4Ppuo6+o/qHUBGD7lS3mPxOCrMlTeTieCEnepdSd6iMa54KcJsGp3kwqhfbsACnIWy/OUG0JKlMB+LFeOKlZzP4HwiLs9Kek8UniYLniHlwOHiCUuZcLA+aAlsA3sbtSMaTWF9QCY5gk3FjOvBwMq0OQ7hoRmE4hJoppD8NrFeGk0VlppPoP1QNz9XiwqEeArTwOBrLfzoRabo5mIUDI+0zFrgkTYZdM39/gAmnrGCzevP/w+lQYlnGocAAA==</values>
@@ -437,13 +437,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:38:26</sys_created_on>
         <sys_id>be57e8c447694f1486414e0f016d437f</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:48:27</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:37</sys_updated_on>
         <ui_id>22c96bf6-cc0e-4ce9-9ec8-df4421222c80</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1YzW7jNhB+FUFnS5Usx+u4p8UuAuTQTbEN9rK7IShyFLOhRJWknLiGgb33EQr04fokHYqSf5LYdRZF2wWcBI45nJ9vODPUB31choKH03DMITk/T8csS7NsmCTDySjNx1meDnlGIc3DQVjRElBzTmUDBtftFxQwWnHBqYVPTZJkfLl8owFXnKQxa7SGysZmYYjgq9WNqCzouYB7cthgVw8NjaW2Md7AsBnwRgK/+VnlxAorD3iidS0FSlAV3WgwTQnEMKUP2Gxrudh3QkpSUstmB1LcKKEJFUQDU2UJFSYgVHUA4GNVb14A8JyyO2/YfrI6QA0aWVEtSgZaKZtLtVYJ8dd984kxU9MqYJIa0+87Y1JTF5XUiPZTGBi76A8P94WpJV1MA1FJUcH3uM8UFgL/uLA032gWVBrA7RaOc9X2Qr+7XBacWE0rUyhdTpNJkZyl2TiiBdBoxIokmozTYZSN8jFPimyYpVia48BjqCCgjEFtzSYEKZqKuaMziAmBiorDQ2+Y/MtpdDUCYwXvXb1F0Y/o/5Ifk2YLJeowt/8plkP/namzMscoIbgHuwaqlLSijjZg6Yx0wmtVP1brUPW611rc3oIOouA99rDmQdffgUcRvOnvBugVuo3Xl8FF3+HHQMb517bX3BfVe/jOuTjCJdVa3R9fD0lzwKrg+NiXGu1E+vOP3/fg3BLEcfw/Q/Sys8W7rPe+XemvjZI31qoq2PTo09EnBWWUAzlmTN2NsA15r7egUlu3TPcoQWuqBfUn2bu4qqEK1qpB7yeoBbvDTkVhsK9r8fifjAnKXjAh/r6ODNOitpHAGX3G4vmrvlLtRd81wpffji6RL8nLyvhUUPvVjeMW+x+Ra4ZBnN42jcBbsbM6G77iUIzSKGOjSTTKCuyAPEuiYpjySTai2fnZMPaHu1ohe+lO4MOJxJxIzInEnEjMicScSMyJxJxIzDdFYthMSI7ew+nHz4MQn4roGZ2G0+WjLbuogbS1Rq5zDSWem4XAk5/B0W+AegcXAiQ3z7wScmFwbbsAZN4FQLwOVToI8dLGsQIM2D63BmFJHWNQehFOrW5QgAfHryq5WGvM8KDQaeh0H4z4FSOk46T9cdoFYJYMvMZ6Sbrm8GI2U4LBVe262UvaR2i3qWRTVu98Ko4ZQkEbaXtmiJLGoD+oHXAHxeMsfpqp+/d9vAv3uNZrzMhoqFyvqLVaYK/hGWFlQELp2EuJoyiqW1JrNRetMUIp41uJi7iQCmkjGHFbxbSdwthdf/EFyt+24g9ufjGJH9ANGq/a5MkvjYvr0+gAkzbnNuG29Zyqn7LX6HgOa5he6CDuMlcnOWgQNhiowOnl4Wq1GvSvFFNIzvY2FIw2/bOFbfNa8YEMk7Ns+GpCWnJpSEK2JkY/pfCXu7tfORsOSvDOQzk2jR3jPWn1o7Et68Yi+afGYvIfDUSH6BubiD1zsPr8Fyk/hdsUFwAA</values>
+        <values>H4sIAAAAAAAA/+1Y227jNhD9FUHPlqqL7XW8T4tdBMhDN8U22JfdDUGRI5sNJaok5cQ1DPS9n1CgH9cv6VAXX5LYdRZF2wWcBI45nMsZzgx1oE8rX3B/6o85RBcX8ZilcZomUZRMhnE2TrM44SmFOPMHfkkLQM0FlTUYXDdfUMBoyQWnFj7XUZTy1eqtBlxxEoes1hpKG5qlIYKv17eitKAXAu7JcYN9PTQ0ltratAaGzYHXEvjtTyojVlh5xBOtKilQgqroRoOpCyCGKX3EZlfLxb4TUpKCWjY/kuJWCU2oIBqYKgooMQGhyiMAH6u25jkAzyi7aw2bT1Z5qEEDK8plwUArZTOpNio+/rpvbWLMVLT0mKTG9PvOmFTURSUVov3se8Yu+8PDfWEqSZdTT5RSlPAa95nCQuAfF5ZmW82cSgO43cBxrppe6HdXq5wTq2lpcqWLaTTJo1GcjgOaAw2GLI+CyThOgnSYjXmUp0kaY2lOA4+hPI8yBpU12xAkr0vmjs4gJgQqSg4PvWH0L6fR1QiMFbx39Q5FP6D/K35Kmg2UoMPc/KdYDv13ps7KnKKE4B7sBqhS0ooq2IKlc9IJb1T1WK1D1eveaDGbgfYC7wP2sOZe19+eU0jGM/vae9tfD9DrbPfeXHmXfZ+fAhxvAW17zUOxWw/fORcnuKRaq/vTqyJpBlgbHCL7UqO9SH/+8fsBnDuCMAz/Z4hedrZ4o/Xedyv9tVGy2lpVettOfXoBkJwyyoGcMqzuXtiFfNCbV6qdu6Z7oKA11YK2J9m7uK6g9DaqXu/HqwS7w05FoXeoa/H4n0wKyl4wIe2tHRimRWUDgZP6jMXzF36pmuu+a4Rffzu5RG1JXlbGp4KqXd06hnH4QbnhGcTp7ZIJvBs7q1HyikM+jIOUDSfBMM2xA7I0CvIk5pN0SNOLURK2h7shJUhluoP4eGY0Z0ZzZjRnRnNmNGdGc2Y0Z0bz7TIaNheSYxB/+unLwMdHJAZA3/509WjLLisgTcmR+NxAgcdnwWuZ0ODkd0O9g0sBkptnXha5MLi2XQCy6AIgbIcqHvh4g+N0AQZsHmIDv6COPii99KdW1yjA8+PXpVxuNOZ4XujUd7oPRvyCEeJx1Pw47RwwSwatxmZJuh5pxWyuBIPryjV1K2mep92mknVRvm9TcTQRclpL29NElNQG/UHlgDsoLc78x7m6/9DHu3TPbr3BjPSGys2KWqsFthyeEVYGJBSOyhQ4kaKckUqrhWiMEUoRziQuwlwq5JBgxKwMaTOMobsFw0uUv2vEH90YYxLfoxs0XjfJk59rF7dNowNMmpybhJsOdKrtsL1BxwvYwGyFDuI+jXWSowZ+jYFyHGLur9frQf+yMYZodLChYLjtnx1s2xeODySJRmnyakIapmlIRHYGRz/l81f7u185Gw6K976Fcmoae8YH0upHY1fWjUX0T43F5D8aiA7RNzYRB+Zg/eUvjmi6ly4XAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=be57e8c447694f1486414e0f016d437f"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -451,7 +451,7 @@
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="AI Resume Processing Flow">18856c4447694f1486414e0f016d4336</flow>
         <generation_source/>
@@ -461,10 +461,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 08:47:03</sys_created_on>
         <sys_id>df4f604d47e5475486414e0f016d4356</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:48:04</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:37</sys_updated_on>
         <ui_id>527def41-3c48-43f6-ab30-f21d834a3952</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9VY227bOBD9FUHPjiv5JjtviwQGCuw2QJv2JQ0ISqRiYmlSJamkTpB/71AUZceWL3FcNH3kcC5nZg5HY988hYyE5yGZRJN8MhmOkyjq96NoNOpnOE7T/ihLoxQPwk4o8JyCpsEpp3C8x7y0Z73QqNRUgYgwXXC8+FbffHXSbMY4UVSE5ze3nbDACvwYuDl/Wrsyi4IijlPKwfjahgk+2ZidgyG+MN6EbAP4IxLOtVTEYok6If1pqCAUQuWYa9oJ51gQbKRaNBJFMbkSfCmYMWHAY2iVf2r2CO7HkdXLKaSVUXfXHFFdISfOZpJl9KowTAoncUDdpeTlXHxyCdja0hyX3PjaggSKjggtLGYLokaUf5nJh88+4JSJKr36kssM8+aEjVEsLQ3VtheU0zk4QnNcFEzcoULJe1YZA5Z5947DoZtz+QBBNbsTXZxZ4F0oEe5OQX5Zib9hxWwW/4Gbqv0549Bt5IquZamqqtyjjJe6ulBYaOcrfK5qhX6UFqXLus4PuRKBgs4UK8w/YHBP61SeO57Fw50UmSwpkUlBmI2pV6iMK6ffSzAmRpV0k9ItGsfR+2I1/qHYW43bEqqJ/kJWEz0+GdEHUfSHqG4r/+6Yvo+7LuE9BI7JThKQZb+1VAa5yq0weJOxRzN0yignLwbwAeC88ZUlW5AutuGtCZrbGGuTuPfXT+J3SU8ARJCrNxOciepDaCfYSXg73EmNNF7jQdX+lRXCyrDOWuZtYGTwePyUrfrq+XsASG/4BRAF1w5lC3A/X737mrr9k1G333sddYE4N08N+qZqLQX2+45tndd/tPp4XR/YtWIQP9821L84Lmb82pg9G3PtbfZf9ThXmeVuLrcQ7MTb1JbH1vmdr3sGpnU85B4remDkjppldK9FpHnA/P+2+5pdzRuq0nvzZhbvXN7Tlc2M5WgOfWIFrIuKZkAFjbCiKJelIKheFJe0sX3LmdKmVt6cIZ+pKZUIJDy5wMxoUGkHjfYpJssB2XnDj3ng06sx6ADSC6r0gia91xVjyzwanHDXe8s8mmLGq9LDwl+s9I4qJdWWmbSnazvaf+DAOhBUfFJQb59obXxvnWx7sP4Vvx7fOnUyitNBD4+SfhxHURyRJBonSTwepfkIJ4N8+dAQ0iKDsQiecyAGuEeeCL6r0eZocbPx6L84YOZ+mNYuDsXrjS+lsD9De4kJLGDoc+AB70+pnheplJxisaTn8I8NjPfyL0jJrtdr40T/tjXtd33MS/ZVsB8l/WhJMaZRbxyT7GycxMnZICejswnBwzM8SYdJn9BskB//fb79BQ1U4OABFAAA</values>
@@ -475,7 +475,7 @@
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
         <display_text/>
         <flow display_value="AI Resume Processing Flow">18856c4447694f1486414e0f016d4336</flow>
         <generation_source/>
@@ -485,10 +485,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 05:57:22</sys_created_on>
         <sys_id>e178c40d47a1475486414e0f016d4313</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:47:03</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:37</sys_updated_on>
         <ui_id>6f7167c9-59db-4f5c-93d6-4095a62ad8ce</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2XbW/bNhDHv0qh16ZHSZRM5V0RO5iBNRkcr8NQdAJFHWMCenD14CQN8t1HylQs2Y5rJE66AXupo+5497/7ieKXB0vG1plFAg6UEZuObAdjG/u+y5kdRa7PIxwBsQZWxlJQbxbA8yJWzyuW1Nrw8OA4PPAj4SPOMSDCIUABcIpiQYhjO2qZ4uHa7/FRecayXCbs/rMJoCx8IZO4gMw6+/J1YC1ZofaqoLDOHraWqvslhAmLIFGO45zXKWTVh+lYxTi2jtZ71hayXZjeQz3HJnootVEt6XzsgQV3FWQxqN0ES0oYWCnLYlblxb11VhW1MhTA4qssuX96YyGzal1oyu5K+V2Fdx39ngBVGTciPD2GRqBWm1xyuFpWMs/WlopFSStcntRpdrmuQEsLgtVJ1ZG2LlU8WOqUdRLrDMX1Ir+dtftdyKwpzmSb5JwlT0+sqgoZ1RWUuhu1nO9TZ23+bW9fhExUK8Mm6bDM66KpdzY5v5qNwz8/zs9/nczC2eR6PpuezyfaAxJoQqdsuZTZTbgs8pVsMlT1psObRD0MRZLfqsJKeZMNGdfiDFUX2PBC2ceN+TMrpN70kwqjnHWWf2TyWw3TZlKEsF3b95FtYxcRO/JRQMFDGDxGPIf4nu9Yj01Xwm+1FmStr1EybJqxLqoZIPVqyQu5rD6qZFZg9HsctIB5BweTbeawE3MD2V3oYM91RjRkMiygDHGoZgqKlYRbKIpdqKb91ZcBNtepfLhcp3JsGT3nZ8oyiPVshjDnMGHGcgxiFP8cxExGr2esJ08fsX5nynA9eibpJup7ceTYNKAkcpEbEQ+RQAhEMSWIAMPcc+IRsfkPOfohPYc/62IzZjzPYqmrKDv0VMAXmVSKK53yAqbXl1fzyaff53/9rXRIa72kXXZWlWCq7lR9tZKVFnBrfZe6t9voZQCfd9U4Vsm9zvvkNRT3bIZi91TnJMH4J2F8qpOyJ0+f4p7C70IrxNSPPEwRCEoRcUcUBeoPDfk+i22b8FjgU556OD40baLzW1nJFPK6CkXCbjrk4l3G2q/bC4801dVfLkyIY3NsnSdZ89k1uT6bvOEiyvMEWLaBgpzsaCP/9aNto83WudZtz7sQwTmj6qBiKHC5urz4EUdUcIFciDzhehGNRvjV5xc/PGPB7ijFddEcFR0WTnlz2kQ/Nr89rs+nbAhoOtS1GxC8/0FoQdiRaOsqtVl4KxoWym/M7kvdSUXfLh9gs5EX6dsRQ8QJbMQC4qDAhxEQQX2XBa/mg9oH50/sDlvJFxDXCbwNH08tbQE5IsHW93qT2fM5G0CKzj6GDf+E95/tXyeeZt0k9pHSyf5fSkxXsz4s3a69z9nhOLYbA0d2rH6piOM7iLpkhEYBjTBRcxG58GI2vv4D5iXQZZwTAAA=</values>
@@ -509,10 +509,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:31:18</sys_created_on>
         <sys_id>eab5288447694f1486414e0f016d433d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 05:21:06</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:37</sys_updated_on>
         <ui_id>40847d23-7ea2-42e8-8ade-be91d9eea851</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UTWsbMRD9K0bnZdkP23V8CzGGHppAWnJJg9BKY1ug1W4lrWPX+L93tKt1nI+mJhhKobppNPPmvZmH7ndECjIlQxBJepGOeZ7meZYk2WSYFuO8SDORM4CURESzEjDTAK+MwPuaqcYHdrsrA8yBoGnMG2NAu/0e34W0tWLbu5CGEb6SSuA7md4/RKRmBhEdGDLdvXhy2xqoYgUoLJxVvCkRdPB5hhinsu2rb3u6L+n7HngXAZ1KH8QnzydNIgIbB1oAtlswZSEiJdOCucpsydSZBgOoWtxotT1krKR2ndKSbaz8ifjDxOctAKXxMIXDlYYJ9cOpJIeb2slKdxHHCtVPrlJNqa87CX62sGCNckezbSziQe0pexIdw8XXVfV42/ebS92qC2xVxZk63JhzRhaNA+vXAQraoZSsrqVe0tpUa9kWI5UyXiq8xAtVPWJPK5c6ZtzzjnFALJ5jfNaG75iRXsQXhMHifSue/mh8305GIExbza1g2i4KUy03snaXCLyGQHMfBbsWo/cMwC+e9n2E+WTZDc2SUZ59mlAmqQFLE8pxuxLpA7y27tXx28dM/M3TGFx3NE6V8Kz4N5KCjZ/FgotHZ3Px5C+5ODD6x2z8J/Mm2bu/19GmW7/aI+Nax1xjvzdJkgu0ngXx2q1v5nzQtVAisoNBhx2dzL8HmEtQwr4hqLdtaEDXocHhAz6bd9Nx0p7///AZ/+GHX4vMBGc4CAAA</values>
@@ -533,13 +533,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:35:17</sys_created_on>
         <sys_id>f0a6a40847694f1486414e0f016d4347</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:47:03</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:07:38</sys_updated_on>
         <ui_id>cef927c0-c3a6-4458-8ee6-6403a74ef992</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1U22obMRD9FaPnZdmL7Tp+KzGGPjSBtOQlDUIrjW0V7aW6OHaN/72jXa3jJE1qgqEUqjeNZs6cM3PQ3Y5IQaZkCCJJL9Ixz9M8z5IkmwzTYpwXaSZyBpCSiFSsBMzUwGst8L5myvnAbnepgVkQNI250xoqu9/ju5CmUWx7G9IwwldSCXwn07v7iDRMI6IFTaa7Z0922wBVrACFhbOauxJBB59miHEq2776pqf7nL7vgXcR0Kn0QXzyfNIkIrCxUAnAdgumDESkZJVgttZbMrXaYQBVi+tKbQ8ZK1nZTmnJNkb+RPxh4vMWgNJ4mMLhSsOE+uHUksN1Y2VddRHLCtVPrlaurK46CX62sGBO2aPZOoN40HjKnkTHcPFlVT/c9P3msmrVBbaq5kwdbsxaLQtnwfh1gIJ2KCVrGlktaaPrtWyLkUoZLxVe4oWqH7CnkcsqZtzzjnFALJ5jfNaGb5mWXsRnhMHifSue/nC+bycjEKat5lYwbReFqYZr2diPCLyGQHMfBbsWo7cMwC8e932E+WjZDc2SUZ59mFAmqQZDE8pxuxLpA7y07uXx2/tM/NXTGFx1NE6V8KT4FUnBxk9iwcWjs7l48pdcHBj9Yzb+k3mT7M3f62jTrV/NkXGNZdaZby5JcjTad+D47b706ytZ73QulIhtYdChRydr6AHmEpQwvxHVWzc0oOvQ4PAJn82/6Thpz/+/+Ix/8f0vn2M96TwIAAA=</values>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9FUFnQ9Biu45vRQwDPTQBnCKXNCUocmyzoESVpLzU8L93KFG2k7SpERgtClS3WTjz3swj9bALBQ/HYR94nFwlQ5YlWZbGcTrqJ/kwy5OUZxQgCXthSQvATA1MaY72israOXa7aw3UAidJxGqtobT7Pca5MJWk23ufhh62FJJjPBw/PPbCimqsaEGH492zkN1WQCTNQeLBiWJ1gUWDDxOscS7a7vSsg/scvuuBNvfViXBODDk8SdwLYWOh5IDt5lQa6IUFLTm1Sm/DsdU1OpA1vy3l9pCxFKVtmRZ0Y8R3rN+PXd4ckBrzUziYxE+oG44SDG4rK1TZeizNZTc5JeuivGkpuNnCnNbSnsy2NlgPKgfZgWgRzu+Waj3r+k1F2bDzaKViVB4saq0WeW3BuHWAhGYoBa0qUS5IpdVKNIcRShEtJBrRXKo19jRiUUaUOdwRDohGU/RPGvc91cKR+Ihl8PC+IU++1a5vS8MDJg3nhjBpFoWphmlR2fdYeAUe5r7n5ZoPXhMAuzru+6TmUbIbksaDLH03IlQQDYbEhOF2BcIHeCnd69PY20T8ycEIbloY51J4cvgXlLyMn/i8igcXU/HoL6nYI/rHZPw78cbpq6/XyaYbvZoT4RpLbW0+13GcodC+AsNn90ujYeSDVBE44m/jsy7eJqIf06g5hg0+fMEdPocQoM7UOrBLvAtLJfnLK/DnGr/xfkGBcC0ELeDe2ZPuCkwFSG5+MvrugvkGZOUbHH4VF7tlyTBuvv9/jAv+MR5/ALIF8+HiCAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f0a6a40847694f1486414e0f016d4347"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=18856c4447694f1486414e0f016d4336"/>
@@ -562,10 +562,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 06:11:21</sys_created_on>
         <sys_id>12ab488147e1475486414e0f016d43ab</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:30:41</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:09:57</sys_updated_on>
         <ui_id>091395e6-e36e-4e21-89c6-caf87328d148</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -589,10 +589,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:34:50</sys_created_on>
         <sys_id>9286a80447694f1486414e0f016d43e2</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:30:41</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:09:57</sys_updated_on>
         <ui_id>26d8b489-9ac0-4719-8a42-47a4c6b5e471</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -616,10 +616,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 05:59:17</sys_created_on>
         <sys_id>a1e8044d47a1475486414e0f016d4343</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:30:41</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:09:57</sys_updated_on>
         <ui_id>727d505a-a772-4476-ae06-7163e804020f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lUBnWdDDdm3fghYBCrQN0AS5tIlAkSuLCEWqJGXHNfzv3dXDCRoHfSC39iKIs+Ts7HC12gem9U3r3bU5d06udbD6chsGUhOG7/tAsxqCVcCNFtJLo/MOCIMNUy0FrrixcMYr4PeICukaxXY3J4O8kkpYGHI0zCKTBxus9j+F/K6BXLECFHF4K/Uaj0uBqzJmZbLkCc/SeZbGcbqYJsU8K5JUZAxYhvvGg29HyWcfOiR8sRbKh7gbMxkrSFYShwE8eNACMHXJlIMwqJkWzBu7OyIWmLjU6hGopPZIF9DmBye/I3c6m9HGErBGDn3wuMwH13qYV0ZyuGxIYI94VqjhDDeqrfWnvg7yG0rWKj/6jUjrkA8aEk0qBknlVWW2n8eEF1J3BQ5BZThTxxXzaEPRenB0MaCgRqK8Zk2D5uSNNRvZHUYtdbRWuIhKZbaYlPonYpyER+gRiy4Qf9fBN8xKquIj0uDhXmbBnOR512tI5y2WcOhsyb+1JKgvcCgl793ADY5b2fhzzLOBQfUhfN6oT3p0v09TvpwX5XzCeQyTKYflZAl8MRHldJomKYYXcWQB21VEHnilJVqSO2rfw+FrG8cZdE/x5u7PyNCkuiW2rt9egRAvAH2sc2fUhi7kFOXzD/EfdOA1ps2SzcpZEs9OT5vp/NS0OTFnXh4x6S9GDH0Uvzlh4jj+P2Kejhjp8n5UDLV1yf96wtzSOOkzuL5vBHDpUMg1Ye/HPyYFdtgAkj+FtsbeUwmP2OEHuMRolHsHAAA=</values>
@@ -643,10 +643,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:32:05</sys_created_on>
         <sys_id>b5e52c8447694f1486414e0f016d43de</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:30:41</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:09:56</sys_updated_on>
         <ui_id>8149a508-b29d-4b5a-a2cf-957583b98dea</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2U22obMRCGXyXoeln2kHUb34WUQCFtIA65aYPQSrO2iFba6mDHNX73jvbgmMahJfSyN2b1j2bmn9GHd8QE3wXv7s2lc3KpyfzbY0Kkjhp+74hmLZA54UYL6aXRtBcSsmYqxMAduNDC2YIbG2UhXafY9uF0lK+kEhbGLh2zWMuDJfPdbyG/7YAqVoPCIgtvpV5iuhR4ajLW5Bc852UxK4ssKz6e5/WsrPNClAxYifemxKvJ9NlNryRvThP7oe6mTsaKaCvPEgLPHrQAbN0w5SAhLdOCeWO3B8UCE7davQgrqT2WI/Hys5M/sXZRVfFiAzgjhyF4ONJxbYPMV0ZyuO2iwUHxrFZjDjcqtPrrMEdcODQsKD8tHJXgsB500XR0MVpqFiuzuZsaXkvdDzgGleFMHU7M4xrq4MHFhwEFLRaiLes6XA7trFnLPhm9tOlS4SFtlNlg00hQyng0nuKOWHqN+qdefmBWxim+YBlMHmzWzElOe9qwnLc4wr5fC/0RoqFhwHEUOmwDLzhuZecvsc8aRtf75DWqR5Tudlf4SB4EzVMeLO7Ap7Znk7rI5n7/PWRZCf2v+FC9JvkdFf4F7Resaqo8q07Tfj47RfsJzt9GvPgD4vFR/pLwLMv+I36MuHR0QHWcrW/+bsIfI85DBzdwI4BLh0buo/Z5+s+OgS0CIPmxtDH2KY7wou1/AcbT7vP9BQAA</values>
@@ -869,9 +869,9 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>ai_resume_processing_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current.applied_job.job_title","label":"Trigger - Record Created➛Candidatee Record➛Applied Job➛Job title","reference":"","reference_display":"Job title","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_job_requirement","column_name":"job_title","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.phone","label":"Trigger - Record Created➛Candidatee Record➛Phone","reference":"","reference_display":"Phone","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"phone","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatee Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"email","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.interview_feedback","label":"7 - Update Record➛Interviewerr Record➛Interview Feedback","reference":"","reference_display":"Interview Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"interview_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.ai_recommendation","label":"Trigger - Record Created➛Candidatee Record➛AI recommendation","reference":"","reference_display":"AI recommendation","type":"choice","base_type":"choice","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_recommendation","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Strongly Recommended","used":false,"reference":false,"rawLabel":"Strongly Recommended","selected":false,"missing":false,"value":"","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["ai_recommendation"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.sys_id","label":"5 - Create Record➛Interviewerr Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"582586fb-7a1c-44b2-a140-3d17e0d20d35":["record"]}},{"name":"Created_1.current.applied_job","label":"Trigger - Record Created➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["job_title"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.table_name","label":"5 - Create Record➛Interviewerr Table","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.resume_score","label":"Trigger - Record Created➛Candidatee Record➛Resume Score","reference":"","reference_display":"Resume Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"resume_score","usedInstances":{"8149a508-b29d-4b5a-a2cf-957583b98dea":["condition"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["resume_score"]}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Candidatee Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_created_on","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["name"]}},{"name":"Created_1.current.candidate_name","label":"Trigger - Record Created➛Candidatee Record➛Candidate name","reference":"","reference_display":"Candidate name","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"candidate_name","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","name"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Candidatee Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record","label":"5 - Create Record➛Interviewerr Record","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa1de427-b1fc-433e-86c7-3ecc3df9931b.record","label":"3 - Update Record➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee","type":"reference","base_type":"reference","usedInstances":{"26c79f52-75f2-4bdf-a2f5-373328788898":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.technical_score","label":"5 - Create Record➛Interviewerr Record➛Technical Score","reference":"","reference_display":"Technical Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"technical_score","usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.communication_score","label":"5 - Create Record➛Interviewerr Record➛Communication Score","reference":"","reference_display":"Communication Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"communication_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"Created_1.current.ai_feedback","label":"Trigger - Record Created➛Candidatee Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_feedback","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee","type":"reference","base_type":"reference","usedInstances":{"40847d23-7ea2-42e8-8ade-be91d9eea851":["record"],"cef927c0-c3a6-4458-8ee6-6403a74ef992":["record"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","job_title","ai_recommendation"],"26c79f52-75f2-4bdf-a2f5-373328788898":["record"],"fa1de427-b1fc-433e-86c7-3ecc3df9931b":["record"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]},"attributes":{}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.problem_solving_score","label":"5 - Create Record➛Interviewerr Record➛Problem Solving Score","reference":"","reference_display":"Problem Solving Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"problem_solving_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"40847d23-7ea2-42e8-8ade-be91d9eea851.record.applied_job","label":"1 - Update Record➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"8d087fb6-f5f8-44df-be94-c755ef177d05":["record"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.ai_feedback","label":"5 - Create Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","choices":[{"order":0.0}],"usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.interview_date","label":"Trigger - Record Created➛Candidatee Record➛interview date","reference":"","reference_display":"interview date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"interview_date","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interview_date"]}},{"name":"Created_1.current.skill_match","label":"Trigger - Record Created➛Candidatee Record➛Skill match","reference":"","reference_display":"Skill match","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"skill_match","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["skill_match"]}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.ai_feedback","label":"7 - Update Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"527def41-3c48-43f6-ab30-f21d834a3952.Record","label":"4 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interviewer"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.final_decision","label":"8 - Update Record➛Interviewerr Record➛Final Decision","reference":"","reference_display":"Final Decision","type":"choice","base_type":"choice","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"final_decision","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Hold","used":false,"reference":false,"rawLabel":"Hold","selected":false,"missing":false,"value":"Hold","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}},{"image":"","label":"Offer Released","used":false,"reference":false,"rawLabel":"Offer Released","selected":false,"missing":false,"value":"Offer Released","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}},{"image":"","label":"Selected","used":false,"reference":false,"rawLabel":"Selected","selected":false,"missing":false,"value":"Selected","parameters":{"name":"x_2053278_ai_res_0_interviewerr","dependent_values":[""]}}],"usedInstances":{"26c79f52-75f2-4bdf-a2f5-373328788898":["status"]}},{"name":"527def41-3c48-43f6-ab30-f21d834a3952.Record.sys_id","label":"4 - Look Up Record➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interviewer"]}},{"name":"527def41-3c48-43f6-ab30-f21d834a3952.Record","label":"4 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interviewer"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.ai_feedback","label":"8 - Update Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.skill_match","label":"Trigger - Record Created➛Candidatee Record➛Skill match","reference":"","reference_display":"Skill match","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"skill_match","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["skill_match"]}},{"name":"Created_1.current.interview_date","label":"Trigger - Record Created➛Candidatee Record➛interview date","reference":"","reference_display":"interview date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"interview_date","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["interview_date"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.ai_feedback","label":"5 - Create Record➛Interviewerr Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"ai_feedback","choices":[{"order":0.0}],"usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"40847d23-7ea2-42e8-8ade-be91d9eea851.record.applied_job","label":"1 - Update Record➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"8d087fb6-f5f8-44df-be94-c755ef177d05":["record"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.problem_solving_score","label":"5 - Create Record➛Interviewerr Record➛Problem Solving Score","reference":"","reference_display":"Problem Solving Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"problem_solving_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee","type":"reference","base_type":"reference","usedInstances":{"40847d23-7ea2-42e8-8ade-be91d9eea851":["record"],"cef927c0-c3a6-4458-8ee6-6403a74ef992":["record"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","job_title","ai_recommendation"],"26c79f52-75f2-4bdf-a2f5-373328788898":["record"],"fa1de427-b1fc-433e-86c7-3ecc3df9931b":["record"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]},"attributes":{}},{"name":"Created_1.current.ai_feedback","label":"Trigger - Record Created➛Candidatee Record➛AI Feedback","reference":"","reference_display":"AI Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_feedback","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":[null]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.communication_score","label":"5 - Create Record➛Interviewerr Record➛Communication Score","reference":"","reference_display":"Communication Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"communication_score","choices":[{"order":0.0}],"usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.technical_score","label":"5 - Create Record➛Interviewerr Record➛Technical Score","reference":"","reference_display":"Technical Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"technical_score","usedInstances":{"727d505a-a772-4476-ae06-7163e804020f":["condition"]}},{"name":"fa1de427-b1fc-433e-86c7-3ecc3df9931b.record","label":"3 - Update Record➛Candidatee Record","reference":"x_2053278_ai_res_0_candidatee","reference_display":"Candidatee","type":"reference","base_type":"reference","usedInstances":{"26c79f52-75f2-4bdf-a2f5-373328788898":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record","label":"5 - Create Record➛Interviewerr Record","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Candidatee Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate"]}},{"name":"Created_1.current.candidate_name","label":"Trigger - Record Created➛Candidatee Record➛Candidate name","reference":"","reference_display":"Candidate name","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"candidate_name","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["candidate","name"],"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Candidatee Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"sys_created_on","usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["name"]}},{"name":"Created_1.current.resume_score","label":"Trigger - Record Created➛Candidatee Record➛Resume Score","reference":"","reference_display":"Resume Score","type":"integer","base_type":"integer","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"resume_score","usedInstances":{"8149a508-b29d-4b5a-a2cf-957583b98dea":["condition"],"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["resume_score"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.table_name","label":"5 - Create Record➛Interviewerr Table","reference":"x_2053278_ai_res_0_interviewerr","reference_display":"Interviewerr","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.applied_job","label":"Trigger - Record Created➛Candidatee Record➛Applied Job","reference":"x_2053278_ai_res_0_job_requirement","reference_display":"Job Requirement","type":"reference","base_type":"reference","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"applied_job","choices":[{"order":0.0}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["job_title"]}},{"name":"22c96bf6-cc0e-4ce9-9ec8-df4421222c80.record.sys_id","label":"5 - Create Record➛Interviewerr Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"sys_id","usedInstances":{"582586fb-7a1c-44b2-a140-3d17e0d20d35":["record"],"65013e91-d2e3-48ef-af7f-962f9cadfefd":["conditions"]}},{"name":"Created_1.current.ai_recommendation","label":"Trigger - Record Created➛Candidatee Record➛AI recommendation","reference":"","reference_display":"AI recommendation","type":"choice","base_type":"choice","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"ai_recommendation","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Strongly Recommended","used":false,"reference":false,"rawLabel":"Strongly Recommended","selected":false,"missing":false,"value":"","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_2053278_ai_res_0_candidatee","dependent_values":[""]}}],"usedInstances":{"22c96bf6-cc0e-4ce9-9ec8-df4421222c80":["ai_recommendation"]}},{"name":"582586fb-7a1c-44b2-a140-3d17e0d20d35.record.interview_feedback","label":"8 - Update Record➛Interviewerr Record➛Interview Feedback","reference":"","reference_display":"Interview Feedback","type":"html","base_type":"html","parent_table_name":"x_2053278_ai_res_0_interviewerr","column_name":"interview_feedback","usedInstances":{"12107152-bb95-4a02-9efa-588b7be1663c":["ai_recommendation"]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Candidatee Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"email","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.phone","label":"Trigger - Record Created➛Candidatee Record➛Phone","reference":"","reference_display":"Phone","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_candidatee","column_name":"phone","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}},{"name":"Created_1.current.applied_job.job_title","label":"Trigger - Record Created➛Candidatee Record➛Applied Job➛Job title","reference":"","reference_display":"Job title","type":"string","base_type":"string","parent_table_name":"x_2053278_ai_res_0_job_requirement","column_name":"job_title","usedInstances":{"0a0ad851-62bc-4f28-9456-b4bb0e7704f0":[null]}}]</label_cache>
         <master>true</master>
-        <name>AI REsume Processing Flow</name>
+        <name>AI Resume Processing Flow</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="AI Resume Processing Flow">18856c4447694f1486414e0f016d4336</parent_flow>
@@ -886,7 +886,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f9c8ac0c47694f1486414e0f016d438c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -894,7 +894,7 @@
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:11</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:02</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -955,7 +955,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</model>
+        <model display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</model>
         <model_id>f9c8ac0c47694f1486414e0f016d438c</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_f9c8ac0c47694f1486414e0f016d438c</name>
@@ -978,14 +978,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:44:38</sys_created_on>
         <sys_id>79c8ac0c47694f1486414e0f016d4390</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:10</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1039,7 +1039,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</model>
+        <model display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</model>
         <model_id>f9c8ac0c47694f1486414e0f016d438c</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_f9c8ac0c47694f1486414e0f016d438c</name>
@@ -1062,14 +1062,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:44:39</sys_created_on>
         <sys_id>86c8ac0c47694f1486414e0f016d43a3</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:10</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1089,7 +1089,7 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <name>Created</name>
         <published_version/>
@@ -1115,7 +1115,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>3</order>
         <parent_ui_id>8149a508-b29d-4b5a-a2cf-957583b98dea</parent_ui_id>
@@ -1139,7 +1139,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>11</order>
         <parent_ui_id>091395e6-e36e-4e21-89c6-caf87328d148</parent_ui_id>
@@ -1147,13 +1147,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 06:56:23</sys_created_on>
         <sys_id>06f594094725475486414e0f016d43d4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 08:43:31</sys_updated_on>
+        <sys_updated_on>2026-06-17 05:38:20</sys_updated_on>
         <ui_id>12107152-bb95-4a02-9efa-588b7be1663c</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1WW0/bMBT+K1Gem8y5tLR9m6iQkBhIMPHCIHLsE+rNuWA7ha7qf+ckTtIOEAOJF7S1UhOfi/2dL+c76dXGFdyduzFwEsyCCYuCKAoJCadxkE6iNAh5RAECd+QWNAeMVMBKxXG9orJuDJtNGLLZJM0mHmMEvJjBzJsBm3o8i+MwCNE9Jb7N224xkwtdSbq+7DZAC1sKyRUU7vzqeuRWVOFZBpQ73zxxvRWspClIDD3v0T5Fb9ZVs+Ylq3MoTCJ640mXueg8zvECPZjUwAnIyIUHAwUHBJJRqWHk5rTg1JRq7c6NqtGggPKzQq6HiKUojC00pw9a/MaTY9LEZYCVsY6EYZl0BFlztqCGXuDOzNRq4KsUDLTlhENGa2kO92024KwyoixsiqGp7LNLWefFqWXEHTbYex61RhBQNXU2yG1Z2cWyvD/vQR6JoqWkK1GWjMphRY1RIq1NA2fjgoSW45xWlShuk0qVK9EmI5Tcv5W48DNZ3uOZWtwWPmUNbh9Zpf4R2het+ZIq0RTxDbfB5O3I1Wt9KKnWu1KQw+SubpDYwroSkpaFloKk7YQmmSlRma941Ao64NtRJ4d0/FqHsdmuofb23EniIQnJOAoPpgkViQKdkAQ7ANRKwD0o9VwCx3963yeHN4Dt5fC9bYKXwXeKeGY72c91Tq2j08P4w/Qw/Ux66Mr49IL4mwxI+Oqg3euktvP1ngQyUVCJ8JnQiPxHTUjEz+EnMAP8Rhtqam2NWHAlobGiVjIAnlL2y7raX1Y5TdmeEcU6Z6DK0qTIbR/i4re5g0PsOoGR4ODFKUrj5ADGMUtwFNzVQgF3BhE6WDTeCurbM75UdpObVq8ICR8P7jUg32zG03A8nWSpd0AD5sVxGno0iIkX8eAACA8Jj8bdO87fK+Sl991/anbUvG/SvaEf+0l3JEBy/UKD9mMOkFukJLEN+2TUdU7nsnMOr/8Pm3fBhLSfTzT1/pl/AdeP06HHvBYLAAA=</values>
+        <values>H4sIAAAAAAAA/+1WW0/bMBT+K1Gemy63lrZ7Qq2QkBhMgHjhEjn2CfVwnGA7ha7qf99J4pRyGQOJF7a1Ulqfm79zfD6fnK9cztyJGwPzg3EwpFEQRaHvh6M4SIdRGoQsIgCB23MlyQEtFdBCMVwviKhqwWoVhnQ8TLOhR6kPXkxh7I2BjjyWxXEYhKge+f3Wb71GT8Z1KcjyzAZACZ1zwRRId3J+2XNLonAvA8qdrJ6o3gpWkBQEmh53aJ+iN8uyXrOCVjlIk/BOeGA9Z1bj7M9Qg041nMDvuXBvQDJAIBkRGnpuTiQjplBLd2JUhQIFhB1JsdxYzLk0baI5udf8J+4c+7VdBpgZtUXYLBNboFaczYghJxiZmkpt6lVwCrqtCYOMVMJMt2WtwVFpeCFbF0NS0XkXosrlYVsRdxNg6zwqjSCgrPOskbdpZSfz4u64A7nHZVMSm6IoKBGbFTFG8bQyNZyVCwKaGuekLLm8TkpVLHjjjFDy/rXART8TxR3uqfm17BNa4+5jVUl/D+WzRnxGFK+T+IZh0Hndc/VSTwXR+iEVrGFyW9VI2sRsCklThaYESdMJtTNVvDS7uNUCLPB1z9IhHbzWYXT80FBbMR8ocZ+E/iAKd0YJ4YkCnfgJdgCoBYc7UOo5BfYfa99HhzeA7ehw2jTBy+AtI57JDrZ9ncNWYfkw+DA+jD4TH2wan54Qf6KBH7560W51UtP5eosCGZdEIHzKNSK/qHw/YsfwA6gBdqUNMZVuhaoTIlUyAJYSetNqmictnTprz3C5zCmoojAplrYzcfFb/4MpNh1HS3Dwx5GFcXIA45g5OApuK66AORsOOggAe1Qx3W83+VK2US7kuzbdxc7WNj6eo8Pz+iSbs520gVJlA+MzHKaVEF+dU6BzybE7nJMbLoT+veW0yPOqNjVdDV80+64K7ILcOSnEAmE8TumquYKwrRAVewjEVqvBKByMhlnq7ZCAenGchh4JYt+LWLADPgt9Fg3s2O5vHc5LI/z/af/Vp/2+efSGW6ObR3scBNMvXCPdMIIc28xA0l4rTwaSVTpnVrl5SfuwqRQM/ebziWbTP/OudvkLgCy/VrwMAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=06f594094725475486414e0f016d43d4"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -1163,7 +1163,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>12</order>
         <parent_ui_id>8149a508-b29d-4b5a-a2cf-957583b98dea</parent_ui_id>
@@ -1171,13 +1171,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:44:39</sys_created_on>
         <sys_id>0ec8ac0c47694f1486414e0f016d43bd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 07:17:31</sys_updated_on>
+        <sys_updated_on>2026-06-17 05:38:20</sys_updated_on>
         <ui_id>26c79f52-75f2-4bdf-a2f5-373328788898</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VV22rjMBD9laLnJPiSpkneSkJhodtCu/SlW8RYGjcC+bKSnDYb8u87tuXEtKUX6EtYv2lGRzrneI59v2VKsjkbowzCWTgRcRjHURBE03GYTOIkjGQMiCEbsBwypJ0GRWEkrdegq7qw3aYQShxHZ8MkTMVwHMc4nE7E2TBGIWKZzmZxmIxa3G5HSKlsqWFz5w+gilgpLQ3mbH7/MGAlGLrLoWHz7YvWZ8lqSFDT1puO7Uv2blPWa1mIKsPccdUVLz1y6TsnP5bUIVBNJwwGDJ8d5hKJSAra4oBlkEtwhdmwuTMVFQyCvM71Zr9jpXLXCs3g2aq/dPM4qPelSMqEN2G/5N6gtpwuwcEtnSxcZfZ+FUqgbT2RmEKl3aJfazdcl04VeQtxkOgOXegqy69aR9j+gN77qCyRwLLWWTNvZaW3q+LppiN5ofLGEi9RFwL0fgXOGZVUrqazZaix8TiDslT5Iy9NsVYNmKhko0dNi1Gqiye606rHfASi5j0iV2F0QfVlU74Do2oRP+kYAu8GzG7sQoO1BynkIf9T1UxaYV4Cb1xoLODNJNRgYVTpzumqNXriu4GPQ3L63oSJ2WGgemceIvHMo+A0js6mHBQ3aHnABQ2JIkGIrwOw6Pe+FoVPEO2i8KsZgLeJ+zS8ql32sSdXbcNn4fTbsjA9pix4GUcfho8iEETvfmR7k9RMve2Nv3XgKvu7CoJY0ttGs1b4xK1Yoaw0ytcB+BjwtVR8gnuXiguFWto3xHSRwIyYOuStuBex8M2TO9/c/ya+LRvhJGieI0rIf/O3ePgHUCDXhD4JAAA=</values>
+        <values>H4sIAAAAAAAA/+VVTU/cMBD9KyjnTWTH2c9bxQqpEgUJKi4URY49AUvOR20H2Eb73ztJnCUCREHigro3z3jG773M27luAyWDTZCAJHRNF4JRxmJC4lVCswXLaCwZB6DBLCh5AXjTgKiMxPM9100XaNucUwlJvAwzmoswYQzC1UIsQwZCMJmv14xm0VC332OlVLbWfHflG2BE3CktDZTB5vpmFtTc4FsOTLBpn6XeC1bzDDRevRjRPkfvdnV3lpVoCihdqsbgqa/c+szR9y1msKiDQ8ksgEcHpQQEknNtYRYUvJTcVWYXbJxpMGCAy/NS7w437lTpBqIFf7TqD76ckO5eDshMeBEOx9QLNITzLXf8EjsL15iDXpUSYAdNJOS80e54GhsunNdOVeVQ4nimx+pKN0V5NigSHBpMvkdjEQTUHc8O+UArv7yrHi5GkCeq7CXxFHUluD6cuHNGZY3r4LQBaOg1Lnhdq/I2rU11r/pihFJEtxoPUa6rB3zTqtsy4qLDHaGqPDrB+LYPX3GjOhI/sA0W72eB3dljza19ooIapr+bDslAzFNIexV6CdJ+ErpiYVTtvuFT9+CB72feDtn8rQkT66eBmvR8ssRjGpM5i5erlKvUgE1JKnBIFBICeGmA42nuY1Z4B9DRCj/7AXgduHfDi9jptPbobEh4L8w/zQurr+QFT+PLm+FfFiDxm3+yk0nqp95Oxt867hr7qyGEybadr+L5apFn4ZJT3A5JFoecJiRkki6ByJhINvfbIcpVyTUSF8oi59eWxaf2/pjX3qHI6LUTBVraVyQajQYFknKQDpI9M5tPHl355GH5fJrj6IL0vy/ku/9mB938BZrPZPaUCQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0ec8ac0c47694f1486414e0f016d43bd"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -1187,7 +1187,7 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id>8149a508-b29d-4b5a-a2cf-957583b98dea</parent_ui_id>
@@ -1211,7 +1211,7 @@
         <comment/>
         <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>6</order>
         <parent_ui_id>8149a508-b29d-4b5a-a2cf-957583b98dea</parent_ui_id>
@@ -1235,7 +1235,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>14</order>
         <parent_ui_id>26d8b489-9ac0-4719-8a42-47a4c6b5e471</parent_ui_id>
@@ -1243,13 +1243,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:44:39</sys_created_on>
         <sys_id>4ec8ac0c47694f1486414e0f016d43be</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 07:17:31</sys_updated_on>
+        <sys_updated_on>2026-06-17 05:38:20</sys_updated_on>
         <ui_id>cef927c0-c3a6-4458-8ee6-6403a74ef992</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIMMpbBUKa1LVSO/HSVZaxL+DJ+Zg/KAzx33eTOCGCrqNSX9B4u1/2OTfn4Oc9kYKMSR9EGN1EQx5HcdwLw96oHy2G8SLqiZgBRKRLUpYAdmrgmRYYb5hyRWK/n2hgFgSNAu60htQeDlgX0uSK7ea+DTN8LZXAOhk/v3RJzjSeaEGT8f6kdCkkxRagsPWxxnSK0e7yIhYZdwniorJO3vnJqa90vk6xgkMFnCjsEthaSAUgkCVTBrokYalgNtM7MrbaYQJJi4dU7ZqOtUxtRTRhWyN/4839sOhbAjLjfglNSP2CqvRyyix7wpO5dbrZVyY5mGonApbMKTtp56qGh9zKLK1GLFuoejpTLknvq42Q5oDW93AGQUBe8CyQV7SWT+vs9bEGOZNpuRJPUWWcqSZi1mq5cLaAsyegoNxxwvJcpiua62wjy2GEkgQrhUGwVNkr3mnkKg0YL3AHuFUWzDA/LdNzpmVB4hseg8OHLjE7M1HMmCMV3CH95QokFTFPgZZbKFdASyUUw1zL3N7iVRvwwA9dL/rF4D2F8ZujoFpnHoW/pb1wEPe+jCiTVIOhIeUoEomEAM4NMGnXPmaFC4DWVvheCuBt4N4NZ7m79mznvip4Lww+zQuja/KCp3H1ZviXBcLeu3+yLSWVqjct+RvLrDM/XBjGKNefwPEJOFf9X7o+pv8LUNb6n0lQwrwBuxY/JAjPAq1onBjAFztzX2wehE9zQTQMy98VeeG/eRde/gALwR2cDgkAAA==</values>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCUEGOVtAiFN6lqpnfrSddbFvoAn52O2w8cQ/303iQMRVB2VqkloefP9sM85ucd+3jEl2Yj1UAbhTTgQURhF3SDoDnvhbBDNwq6MADFkbZZAjFRpUKRG0noFOi8Cu93YIDiUPOyI3BhM3H5PealspmH75MsoIpZKS8qz0fNLm2VgaEeHho12J6lLIWmYoabShxrTKUa3zYq1TEUeEy6u6uCt75z4TOvLhDLUVMAJgzbDjcNEIgGZg7bYZjEkElxqtmzkTE4BIi3vE709VCxV4iqiMWys+k0n94Kibo7ETHgRDkvuBarC8wk4eKSdhcvNQa9UCbSVJhLnkGs3bsaqgvvMqTSpWhzMdN2d6jxO7ipF2GGDxv/ILYHArOBZIK9ozR+X6fqhBjlVSSmJp6hTAfqwAueMmuWugLNjqLHUOIYsU8mCZyZdqbKZoMSdhaZFZ67TNZ1p1SLpgChwd0hV6EwpPinDT2BUQeIrbUPN+zazWzvWYO2RCmnIf+UFkoqYp8BLFUoJeDkJRbMwKnOf6agVeuD7th/6Wf+tCRM3x4Fq7Hkc/A3vBv2o+2nIQXGDlgdc0JAoIoR4boBxM/c+K1wAtLbCt3IAXgfu3XAWu232tu6qhPdC/8O8MLwmL3gaV2+Gv1kg6L55yTYmqZx62xh/68Dl9nseBBGN608U9AT8KJ1ADIk8USFGVf6hzleFFKcysMe0pVu49Ui3NrZoFtN1yy3JUctUy3Mj/buD3+fSC7SsXTpVqKV9RdzaohgTY4e8EvvEpj7ZevLJw7P1YV4NB0H5XZFj/5vX6+UP230KVbQJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4ec8ac0c47694f1486414e0f016d43be"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -1259,7 +1259,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>8</order>
         <parent_ui_id>727d505a-a772-4476-ae06-7163e804020f</parent_ui_id>
@@ -1283,7 +1283,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>9</order>
         <parent_ui_id>727d505a-a772-4476-ae06-7163e804020f</parent_ui_id>
@@ -1307,7 +1307,7 @@
         <comment/>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>5</order>
         <parent_ui_id>8149a508-b29d-4b5a-a2cf-957583b98dea</parent_ui_id>
@@ -1315,13 +1315,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:44:39</sys_created_on>
         <sys_id>cac8ac0c47694f1486414e0f016d43bc</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:04:11</sys_updated_on>
+        <sys_updated_on>2026-06-17 05:57:26</sys_updated_on>
         <ui_id>22c96bf6-cc0e-4ce9-9ec8-df4421222c80</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1YX2/bNhD/KoKeLU2yHNfxnooUAQJ0zdAGeWkbgiKpmAtFaiSVxDMM9H0fYcA+3D7JjqRkO3/sOsMwLICTIDGPvzv+7nhHXvh5EXMaT+MxZdnxcT4mRV4UwywbTkZ5OS7KfEgLzPIyHsQS1wyQt1i0zMDYfwABwZJyii370mZZQReLE81gRFGeklZrJm1q5gZxulxecWmZvuXsDu1WeIgDRWOxbU1QMGTGaCsYvfpFlchyK3ZYwk0jOEgACmY0M23NkCFK79DZRLm1b7gQqMaWzHa4uAaBCuZIM6LqmklwgCu5g+BjaFCvGKMlJjdB0f8mTQQInFgu5zVhWilbCrWCxPDtPgXHiGmwjIjAxvTzThk12K2KGmD7JY6MnffBg3luGoHn04hLwSX7EeaJgo2AH8otLtfICgvDYNrTcaZ8LvSzi0VFkdVYmkrpeppNquwoL8YJrhhORqTKksk4HybFqBzTrCqGRQ5bsx95WCqKMCGssWa9BKpaSVzoDHAColxSdt8rZv+xG90eMWM57U29A9HPYP+M7uOmp5J0nP1fDNuhv6fqtMw+ICB3b1dElRKWN8maLJ6hTnihmsewjlWPvdD8+prpKIk+Qg5rGnX5HQUW0Ul/NrAe0E28PYtO+wzfhzLUv7Y9ctuqwcIPzsQeJrHW6m7//RC4ZLArUD72pUoPVvrrzz+28NwQpGn6P2P0stjCWdZb39zpf7pK2VqrZLTO0aeljypMMGVonzJ1J8Im5a3WIqk2TpnuKgFtrDkOkexNnDdMRito1NuJGk5uIFNBGG3LWgj/kzIB2QsqJJzXiSGaNzbhUKPPaDx/1EvlD/ouEb79vvcWhS152TY+FTRhdOV6i+1X5KrDQA632UbAqdhpHQ3fUFaN8qQgo0kyKirIgLLIkmqY00kxwsXx0TANwV0uoXvpInB5aGIOTcyhiTk0MYcm5tDEHJqYQxPzqpoYMuOCgvV4+vnrIIZbESyD0Xi6eDS17xuPTweAnnImqHnm0cfOGze2rIbQgy/hESjI33fKF91kdNlNAl1HKh/EcGZDVTFg46+tQVxj1zAoPY+nVrcggLjRcynmK8QM4gRGY4e9N/w3WD4fZ/7LoSsGThIWEKsh6nIjiCt3dX0C+8S2uoOSmeIEXPLhgaDjVtiTTVkAnDeuAoKKv3Y7bSXaWn4IwYlXBvpuEiStARKscd46/sG56tNM3X3sSZ66K16vHIUuCIvVCFurOeSno7OImWC163hqKF8ur1Gj1S33ykClTq8FDNJKKGg1meHXMsW+clN3ZKanIH/nxZeu5sGJn8AMKC8HMTS1J64K165ADNGvrWMSHOtcQD4KPgQ+gb2yr9W3sNQtWxEPQkf6Yf/rJDsV4hYWquAMoPFyuRz0D5M5y462Ji0brXN0g9v6cfIeDbOjYvhmgnyLalCGNupOP/1H4Ozh7Asr7Ptk+wq78Mn0PPm+yB7L3m/qRh/CRFdc2b9VXJPXVFadG6++rrZU0/Lr39LZkdigFwAA</values>
+        <values>H4sIAAAAAAAA/+1Y227jNhD9FUHPlqqL43W8T4ssAgTYbordIC+7G4IiKZsNJaoklcQ1DPS9n1CgH9cv6ZC6WLnYaxdF0QBOgsQczuXMcGY44ZeVz6k/8yeURaen8YSkcZomUZRMx3E2SbM4oSlmceaP/BIXDDjvsKiZhrX7AASCS8opNuxrHUUpXa3OFIMVRXFIaqVYaUK91IjT9fqGl4apO87u0W6Bx3wgqA02tW4ENFkwWgtGb36WGTLciB2acFUJDhRgBTWK6bpgSBOpdsgMuaztWy4EKrAhix0ubphABHOkGJFFwUpwgMtyB8CnrI14zhjNMLltBN1vUnnAgQPDy2VBmJLSZEL2LD5820+NY0RXuPSIwFp3+1YYVdhaRRWg/ep72iy74ME+15XAy5nHS8FL9hb2iYSDgB/KDc42nDkWmsG2g2NVuVzodlernCKjcKlzqYpZNM2jkzidBDhnOBiTPAqmkzgJ0nE2oVGeJmkMR7MfeDDleZgQVhm9MYHyuiQ2dBowAVBeUvbQCUb/sRvtGTFtOO1UvQfST6D/gu7jpoMStJjdXwzHob4naqX0PkwA7sH0QKUUhlfBBixeoJZ4JaunbC2qjvdK8fmcKS/wPkEOK+q1+e1ZhmQyN2+9s649sI5ns/fuwjvv8nwf4NAFlOk4t9luNPxgVeyhEisl7/c/FYEzBmcDRWQOFXpk6a8//9iCc0AIw/B/huiw2EJH67QPT/qfWslqY2TpbTL1eQNAOSaYMrRPsdq+MIS8VZtXykGvaS8UkMaK4yaSnYrLipVez+p1eryKk1vIVCB627IWwv+sUoB2QIU0XTvQRPHKBBwq9QWJlxt+KV27bxPht9/3PqLmSA47xueEqlnd2Alj+0XZzxnI8g2HCeiNrdRJ8oayfBwHKRlPg3GaQwZkaRTkSUyn6RinpydJ2AS3H0pglGkDcX2caI4TzXGiOU40x4nmONEcJ5rjRPN6Jxqy4IKCEX/25dvIhysSDIBuf7Z6srXv64/LCmA950xQ/cJzkFlWdm1YAScALjXPQw39Qyt81W561+0moLag4pEPDRyKiwEad4eN/ALb6UGqpT8zqgYChI9elmLZcywgXKDUt7wPmv8K5uNJ5L4sd87AScIajn6J2hRpyLm9xz6DfmJq1bKSheQEXHLhgdjjWpizIa1huKxsITQi7g5upaWoi/JjExy/V9CNlkCpNYBglfXW4m+cyz8v5P2nDuS5ve9V7yiMRFj0K2yM4pCmFs7KZ4IVdvwpoIp5OUeVknfcCQOUIpwLWIS5kDB3Ms3nZYhdAYe2c4bnQH/vyNe29MGJH0ENCK9HPiTTmS3GjSsQQ/RLbZE0jrUuIBcFFwKXx07Ylew7MHXHeuAN0YJ+PAxbyk4BvwZDObQC6q/X61H3ZBmz6GRr0rLxJkcH2DbPlg8oiU7S5M0UuXlVowgNyk89/6/g4vHugRX2fbBdhV25ZHoZfFdkT2kfhrLex2ajLa7o3yqu6Wsqq9aNV19XW6pp/e1vB28kC7oXAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cac8ac0c47694f1486414e0f016d43bc"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -1331,7 +1331,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -1357,7 +1357,7 @@
         <connected_to>727d505a-a772-4476-ae06-7163e804020f</connected_to>
         <decision_table/>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
@@ -1368,10 +1368,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 06:56:23</sys_created_on>
         <sys_id>12f594094725475486414e0f016d43db</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:11</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:02</sys_updated_on>
         <ui_id>091395e6-e36e-4e21-89c6-caf87328d148</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1384,7 +1384,7 @@
         <connected_to>8149a508-b29d-4b5a-a2cf-957583b98dea</connected_to>
         <decision_table/>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
@@ -1395,10 +1395,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:44:39</sys_created_on>
         <sys_id>86c8ac0c47694f1486414e0f016d43b8</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:11</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:02</sys_updated_on>
         <ui_id>26d8b489-9ac0-4719-8a42-47a4c6b5e471</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1411,7 +1411,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1422,10 +1422,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 06:56:23</sys_created_on>
         <sys_id>9af594094725475486414e0f016d43d9</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:11</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:02</sys_updated_on>
         <ui_id>727d505a-a772-4476-ae06-7163e804020f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnWZDkR23fggQBCqQN0AS5tKmwIlc2EYpUScqJa/jfu5TkBxoXbdDc2othzpKzs8PlasNM4+vGuztz7pxcaDb//BAxqQNG/zdMQ4VszrjRQnppdN4CEVuBakLglhuLZ3yJ/JFQIV2tYH1/MsiXUgmLfY4aLDF5tGy++SkkBZ0tEyjTGU/5MJsMsyTJpqO0mAyLNBNDQBgSoYICFW292Ik7u26R6Jeq/boOuPNW6kW/vu5ZbnegsSKoSpOI4bNHLZD0lKAcRqwCLcAbu94jFkHcaHUAllJ7omNh87OT3ylhNh6HjSVSiRy74H6Z96Z1cHkJHkhKw31j+618aSRH15kjsIRG+YtjrNtwU4dSuyMeCrU7bVRT6Y+dI2xPsLsjQhpHIrAOlQbpfR3l7dI8fdqpvJK6daUPKsNB7Vfgybui8UHPhqHCiojyCuqaHM1ra1ayPUxaqnihaBGXyjxR0tBzMfAgPCZjIb4i/LKF78HKUMUHoqHDncwCnOR5259ERzYh20bMrd2FAucORZK7+bcmSOxK7ovLO3/CEW5l7c8p8wr7OrbRy3Y/6vTNJsv4bFKUkwHnCQ5GHGeDGfLpQJSjUZZmFJ4msUVqehF75EstyaTchUew3X5pkmSI7a949/V1ZGRb1QS2tpffgJCuhJytcmfUKlzRKcqXz/kfdOB1M2sG43KcJuPTM2s0OTWzTkyrVw6q7DeDKrySP5xTSZL8H1R/Paiky7vx0tfWJn/DOfUQhlKXc+81l46k3QXs/e7rHQJrai7Jj6EnYx9DUQds+wOJhNbQBwgAAA==</values>
@@ -1438,7 +1438,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="AI REsume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
+        <flow display_value="AI Resume Processing Flow">f9c8ac0c47694f1486414e0f016d438c</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1449,10 +1449,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-13 05:44:39</sys_created_on>
         <sys_id>cec8ac0c47694f1486414e0f016d43b5</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:10</sys_updated_on>
+        <sys_updated_on>2026-06-17 07:10:01</sys_updated_on>
         <ui_id>8149a508-b29d-4b5a-a2cf-957583b98dea</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnQdAjcpvcAgcBCqQNEAe5tIGwIimbKEWqfNhxBf97l3rYRuKiTdtjL4Y5y92dHe5AHdHetd7ZB31lrVgqcvn5KSJCBQz/d0RBw8kloVox4YRWZQ9EZA3Sh8A9t77hZwuqTYCZsK2E7ePpKF0JyQwfu7RgsJbjhlx2L0KCYXKdQJ1e0JTm2SzPkiR7f55Ws7xKM5YDhxwLSqi4xKvzid7ZbY9EP+Xttm3ArTNCLcfz7VhlMYHasMAqTSLCnx1XjCOfGqTlEWlAMXDabPeI4cDulDwAK6EcliPh8rMV37FhVhThYs1xRMqH4P5YjqoNcH0NDpCKp86b8SpdaUG5HcRhvAYv3fwYGy7ctWHUIcVBJadsLX2jPg2KkH2B6ZEQ8RZJ8DZMGqiPc9SLld7cTyxvhOpVGYNSU5D7EzjUrvIu8OkIl7zBQmUDbYuKlq3Ra9EnI5cmXko8xLXUG2wati4GGojHKCzEN4hf9/AjGBGm+IhlMHmgWYEVtOw3FMuhTJzsImK3di7B2sOQqG75zQeKw8jjcOWgT0ihRrTuCjuv+TjHLnq98Ee73nVzfGvHWZnG1BtUxcWm3/DShg3f7b74JMl5/8veFa/98AcV3uaZCyjqIk2K0545n53yzAm3vNEo2S+MEl7pN32SJMl/o/y1UYQth/UeZ+ub/0OfPAVTDD33WlNhkdpDwD5M348Q2OJyCXoMbbT5GoY6YLsfzcUb3okGAAA=</values>
@@ -1678,12 +1678,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cec8ac0c47694f1486414e0f016d43fb</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 09:28:12</sys_updated_on>
-        <trigger display_value="">c2b830414769475486414e0f016d4393</trigger>
+        <sys_updated_on>2026-06-17 07:10:04</sys_updated_on>
+        <trigger display_value="">04b26595476dc75486414e0f016d4309</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=18856c4447694f1486414e0f016d4336"/>
 </record_update>

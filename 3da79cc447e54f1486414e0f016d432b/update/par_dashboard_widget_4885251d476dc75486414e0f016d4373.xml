@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">16242559476dc75486414e0f016d43c6</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"rangesConfig":{},"colorConfig":{"type":"singleColor","values":[{"color":"6b8e3fa39f5c73001bb9baac757fcf86","metric":"ZEdGaWJHVjRYekl3TlRNeU56aGZZV2xmY21Welh6QmZZMkZ1Wkdsa1lYUmxaVEUzT0RFMk9EQTVNakEyTkRrPTE3ODE2ODA5MjM4MDU=","rules":[]}]},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Candidatee","sourceType":"table","tableOrViewName":"x_2053278_ai_res_0_candidatee","filterQuery":"status=rejected","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzIwNTMyNzhfYWlfcmVzXzBfY2FuZGlkYXRlZTE3ODE2ODA5MjA2NDk=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzIwNTMyNzhfYWlfcmVzXzBfY2FuZGlkYXRlZTE3ODE2ODA5MjA2NDk=","id":"ZEdGaWJHVjRYekl3TlRNeU56aGZZV2xmY21Welh6QmZZMkZ1Wkdsa1lYUmxaVEUzT0RFMk9EQTVNakEyTkRrPTE3ODE2ODA5MjM4MDU=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary","label":"Rejected Candidates"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"4dmardbu","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":{"colorDetails":{"6b8e3fa39f5c73001bb9baac757fcf86":[{"sysId":"6b8e3fa39f5c73001bb9baac757fcf86","cssCustomProperty":"--now-datavis_color--blue-10","defaultColor":"30,60,84"}],"47f20080d7333100b4964ebfae610319":[{"sysId":"47f20080d7333100b4964ebfae610319","cssCustomProperty":"","defaultColor":"203,45,45"}],"b09aa73f9f5c73001bb9baac757fcf32":[{"sysId":"b09aa73f9f5c73001bb9baac757fcf32","cssCustomProperty":"--now-datavis_color--green-8","defaultColor":"46,103,52"}]},"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"colors":{}}</component_props>
+        <h>11</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 07:22:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4885251d476dc75486414e0f016d4373</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_update_name>par_dashboard_widget_4885251d476dc75486414e0f016d4373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 09:13:56</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>23</x>
+        <y>26</y>
+    </par_dashboard_widget>
+</record_update>

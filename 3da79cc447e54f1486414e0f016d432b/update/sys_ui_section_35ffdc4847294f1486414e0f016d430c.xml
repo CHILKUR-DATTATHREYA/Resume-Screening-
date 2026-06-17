@@ -4,13 +4,13 @@
             <element>candidate</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>2db034014729475486414e0f016d4386</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>057e015d47a9c75486414e0f016d4329</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>e1b034014729475486414e0f016d4388</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>817e015d47a9c75486414e0f016d432a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>interview_date</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>61b034014729475486414e0f016d4389</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>017e015d47a9c75486414e0f016d432b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>status</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>edb034014729475486414e0f016d4389</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>8d7e015d47a9c75486414e0f016d432b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>ai_recommendation</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>6db034014729475486414e0f016d438a</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>0d7e015d47a9c75486414e0f016d432c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>interviewer</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>e9b034014729475486414e0f016d438b</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>897e015d47a9c75486414e0f016d432d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,69 +88,55 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>69b034014729475486414e0f016d438c</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>097e015d47a9c75486414e0f016d432e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>job_title</element>
+            <element>interviewer.name</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>e5b034014729475486414e0f016d438d</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>857e015d47a9c75486414e0f016d432f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>interviewer.name</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>65b034014729475486414e0f016d438e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>resume_score</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>e1b034014729475486414e0f016d438f</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>057e015d47a9c75486414e0f016d4330</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>skill_match</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 08:53:13</sys_created_on>
-            <sys_id>61b034014729475486414e0f016d4390</sys_id>
+            <sys_created_on>2026-06-17 05:41:39</sys_created_on>
+            <sys_id>817e015d47a9c75486414e0f016d4331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2053278_ai_res_0_interviewerr" sys_domain="global" view="Default view">35ffdc4847294f1486414e0f016d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 08:53:13</sys_updated_on>
+            <sys_updated_on>2026-06-17 05:41:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

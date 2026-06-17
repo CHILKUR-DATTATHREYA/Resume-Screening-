@@ -26,7 +26,7 @@
         <element label="Candidate" max_length="32" name="candidate" reference="x_2053278_ai_res_0_candidatee" type="reference"/>
         <element label="Interview Date" max_length="40" name="interview_date" read_only="true" type="glide_date_time"/>
         <element label="Communication Score" max_length="40" name="communication_score" type="integer"/>
-        <element active="false" display="true" label="Job title" max_length="40" name="job_title" read_only="true" reference="x_2053278_ai_res_0_job_requirement" type="reference"/>
+        <element display="true" label="Job title" max_length="40" name="job_title" reference="x_2053278_ai_res_0_job_requirement" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" read_only="true" type="string"/>
         <element label="Interviewer" max_length="32" name="interviewer" reference="sys_user" type="reference"/>
         <element label="Technical Score" max_length="40" name="technical_score" type="integer"/>
