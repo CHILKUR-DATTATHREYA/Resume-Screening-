@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="22185c0847e54f1486414e0f016d4344" label="Candidatee" max_length="40" name="x_2053278_ai_res_0_candidatee" type="collection">
-        <element label="interview date" max_length="40" name="interview_date" type="glide_date_time"/>
+        <element label="interview date" max_length="40" name="interview_date" read_only="true" type="glide_date_time"/>
         <element label="Applied Job" max_length="32" name="applied_job" reference="x_2053278_ai_res_0_job_requirement" type="reference"/>
-        <element display="true" label="Candidate name" max_length="40" name="candidate_name" type="string"/>
+        <element display="true" label="Candidate name" max_length="40" name="candidate_name" read_only="true" type="string"/>
         <element label="Experience Years" max_length="40" name="experience_years" type="integer"/>
         <element label="Education" max_length="40" name="education" type="string"/>
         <element choice="1" default="Strongly Recommended" label="REcommendation" max_length="40" name="recommendation" type="choice">
@@ -13,14 +13,14 @@
                 <element inactive_on_update="false" label="Recommended"/>
             </choice>
         </element>
-        <element label="Resume Score" max_length="40" name="resume_score" type="integer"/>
-        <element label="Skills" max_length="40" name="skills" type="string"/>
-        <element label="AI Feedback" max_length="8000" name="ai_feedback" type="html"/>
-        <element label="Skill match" max_length="40" name="skill_match" type="integer"/>
+        <element label="Resume Score" max_length="40" name="resume_score" read_only="true" type="integer"/>
+        <element label="Skills" max_length="40" name="skills" read_only="true" type="string"/>
+        <element label="AI Feedback" max_length="8000" name="ai_feedback" read_only="true" type="html"/>
+        <element label="Skill match" max_length="40" name="skill_match" read_only="true" type="integer"/>
         <element label="AI summary" max_length="40" name="ai_summary" type="html"/>
-        <element label="Email" max_length="40" name="email" type="string"/>
-        <element label="Rejection Reason" max_length="4000" name="rejection_reason" type="string"/>
-        <element choice="1" default="Under Review...." label="AI recommendation" max_length="40" name="ai_recommendation" type="choice">
+        <element label="Email" max_length="40" name="email" read_only="true" type="string"/>
+        <element label="Rejection Reason" max_length="4000" name="rejection_reason" read_only="true" type="string"/>
+        <element choice="1" default="Under Review...." label="AI recommendation" max_length="40" name="ai_recommendation" read_only="true" type="choice">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Recommended" sequence="3" value="Recommended"/>
                 <element inactive_on_update="false" label="Strongly Recommended" sequence="0"/>
@@ -32,8 +32,8 @@
             </choice>
         </element>
         <element label="skill gap" max_length="4000" name="skill_gap" type="string"/>
-        <element label="Phone" max_length="40" name="phone" type="string"/>
-        <element choice="3" default="Screened" label="Status" max_length="40" name="status" type="choice">
+        <element label="Phone" max_length="40" name="phone" read_only="true" type="string"/>
+        <element choice="3" default="Screened" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Selected" sequence="6" value="selected"/>
                 <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>

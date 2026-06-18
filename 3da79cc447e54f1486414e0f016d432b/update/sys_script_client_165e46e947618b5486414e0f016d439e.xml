@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>resume_text</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Candidatee Resume auto populate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading || !newValue)
+        return;
+
+    // Candidate Name
+    var nameMatch = newValue.match(/name\s*:\s*(.*)/i);
+    if (nameMatch)
+        g_form.setValue('candidate_name', nameMatch[1].trim());
+
+    // Email
+    var emailMatch =
+        newValue.match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/);
+
+    if (emailMatch)
+        g_form.setValue('email', emailMatch[0]);
+
+    // Phone
+    var phoneMatch =
+        newValue.match(/\+?\d[\d\s-]{8,15}/);
+
+    if (phoneMatch)
+        g_form.setValue(
+            'phone',
+            phoneMatch[0].replace(/\s/g, '')
+        );
+// Skills Extraction
+
+var skills = [];
+
+var lowerText = newValue.toLowerCase();
+
+if (lowerText.indexOf("java") > -1)
+    skills.push("Java");
+
+if (lowerText.indexOf("sql") > -1)
+    skills.push("SQL");
+
+if (lowerText.indexOf("aws") > -1)
+    skills.push("AWS");
+
+if (lowerText.indexOf("spring") > -1)
+    skills.push("Spring Boot");
+
+if (lowerText.indexOf("python") > -1)
+    skills.push("Python");
+
+if (lowerText.indexOf("react") > -1)
+    skills.push("React");
+
+if (lowerText.indexOf("javascript") > -1)
+    skills.push("JavaScript");
+
+if (lowerText.indexOf("html") > -1)
+    skills.push("HTML");
+
+if (lowerText.indexOf("css") > -1)
+    skills.push("CSS");
+
+// Cyber Security Skills
+
+if (lowerText.indexOf("network security") > -1)
+    skills.push("Network Security");
+
+if (lowerText.indexOf("nmap") > -1)
+    skills.push("Nmap");
+
+if (lowerText.indexOf("wireshark") > -1)
+    skills.push("Wireshark");
+
+if (lowerText.indexOf("penetration testing") > -1 ||
+    lowerText.indexOf("penetration") > -1)
+    skills.push("Penetration Testing");
+
+if (lowerText.indexOf("ethical hacking") > -1)
+    skills.push("Ethical Hacking");
+
+if (lowerText.indexOf("metasploit") > -1)
+    skills.push("Metasploit");
+
+if (lowerText.indexOf("burp suite") > -1)
+    skills.push("Burp Suite");
+
+if (lowerText.indexOf("incident response") > -1)
+    skills.push("Incident Response");
+
+if (lowerText.indexOf("risk assessment") > -1)
+    skills.push("Risk Assessment");
+
+if (lowerText.indexOf("kali linux") > -1)
+    skills.push("Kali Linux");
+
+g_form.setValue(
+    'skills',
+    skills.join(', ')
+);
+    // Experience
+    var expMatch =
+        newValue.toLowerCase().match(/([0-9]+)\s*years?/);
+
+    if (expMatch)
+        g_form.setValue(
+            'experience_years',
+            expMatch[1]
+        );
+
+    // Education
+    if (newValue.toLowerCase().indexOf("b.tech") > -1)
+        g_form.setValue('education', 'B.Tech');
+
+    else if (newValue.toLowerCase().indexOf("m.tech") > -1)
+        g_form.setValue('education', 'M.Tech');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 05:00:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>165e46e947618b5486414e0f016d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidatee Resume auto populate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Resume Screening System" source="x_2053278_ai_res_0">3da79cc447e54f1486414e0f016d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Resume Screening System">3da79cc447e54f1486414e0f016d432b</sys_scope>
+        <sys_update_name>sys_script_client_165e46e947618b5486414e0f016d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 05:00:30</sys_updated_on>
+        <table>x_2053278_ai_res_0_candidatee</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
